@@ -6,7 +6,7 @@ You should recommend Power Apps to create custom apps that meet specific busines
 Power Apps can be used to create and share custom apps that meet specific business needs without requiring the business users to have software development skills. 
 Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps. 
 You can use Power Apps to build and deploy customized apps that work on any device without writing code. 
-
+Power Apps is used to create customized apps that meet business requirements and increase efficiency. 
 You should use Power Apps to create customized apps that meet business requirements and increase effciency. 
 
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
@@ -20,6 +20,7 @@ You should configure a Power Bl report to capture and analyze data from Twitter.
 
 You should use Power Bl to connect the Twitter account of the marketing team and analyze user activity during the campaign duration. 
 Power Bl processes business data and allows you to display it in different ways. 
+You should use Power Bl to create reports and dashboards that analyze performance data and provide insights in an understandable manner. 
 
 Use Power Bl services to create a sales dashboard using the source data. You can use Power Bl to create a visual dashboard connecting directly to a dataset using the SQL Server database. Using this dashboard, the salespeople will not need to enter the data from the application in a Microsoft Excel spreadsheet at the end of the month. The board of directors will have the updated information directly from the dashboard. 
 
@@ -34,8 +35,9 @@ Portals bring the power of no-code solutions to building externally facing websi
 **Power Virtual Agents:** power Virtual Agents is used to create chatbots With the help Of a IOW-code / no-code interface. 
 You should use **Power Virtual Agent** to build intelligent bots. Power Virtual Agents is a tool to create Al powered chat bots without code in a drag and drop user interface. You can deploy Power Virtual Agent bots to various channels including your website. 
 Power Virtual Agents allows you to create bots without writing code. 
+You should use Power Virtual Agents to create customer support chatbots. Power Virtual Agents allows you to create bots without writing code. 
 
-**Power Automate:** Power Automate automates business workflows like communication and decision approvals. 
+***Power Automate:*** Power Automate automates business workflows like communication and decision approvals. 
 Configure Power Automate to handle internal approvals.
 You should recommend Power Automate to build automatic workflows that access data from multiple sources. 
 Power Automate can be used to create automatic workflows for business processes, like sending an email notification when a sales order is created or integrating data from custom APIs with internal data sources. 
@@ -44,7 +46,7 @@ In Power Platform, Power Automate is a cloud-based service that makes it simple 
 Use Power Automate to create an approval flow. You can use Power Automate to improve the sales order approval process by using an approval flow to notify the salespeople's manager about new orders. By using the SQL Server connector, you can start this workflow at the moment a sales order is created in the database using the When an item is created trigger. 
 Power Automate is used to create workflows to automate within and across cloud services. 
 You should use Power Automate to create flows that automate repetitive tasks like approvals, emails and copying files. 
-
+Power Automate is used to create flows that automate repetitive tasks like approvals, emails, and copying files.
 
 **Azure Functions** To use Azure Functions, business users should have software development skills in order to perform these tasks. 
 
@@ -63,4 +65,14 @@ You should use Microsoft Dataverse to create tables for data. Dataverse is a dat
 **Al Builder** is a tool for creating models such as prediction and classification that you can use in your Power Apps and Flows. 
 
 Al Builder allows you to automate form processing and predict outcomes like recognizing an image. 
+
+You should use the Al Builder pre-built model to perform sentiment analysis. Al Builder allows you to perform sentiment analysis, automate form processing, and predict outcomes like recognizing an image. 
+
+
+
+
+
+
+
+
 
