@@ -113,6 +113,10 @@ party application with Power Platform. However, you can use the built-in SQL Ser
 
 To integrate with an internal third-party API, you need to develop a custom connector yourselves - this requires developers
 
+You should use Data Loss Prevention (DLP) policies to control the use of connectors to data and services. DLP policies control which connectors can be used together in canvas apps and flows. In a DLP, you define which connectors are for business data and which are for non-business data. For instance, you can define SharePoint as a business connector and DropBox as non-business connector. This will prevent anyone in an environment from sending SharePoint documents and putting them in Dropbox. 
+
+
+
 
 ## Dataverse 
 You can use Dataverse to store business data used by your applications. The data is organized as tables. A table is a set of rows used to store data. 
@@ -135,6 +139,8 @@ You cannot provision a Dataverse database in your own data center to integrate o
 You should not create a canvas app in Power Apps Studio using Dataverse as the data source. Dataverse is a premium connector that requires additional licensing to use. 
 
 You should not create a **model-driven app**. Model-driven apps require Microsoft Dataverse, which is a **premium connector** and will require additional licensing
+
+You should assign a security role to the users. To access data within Microsoft Dataverse, a user must have a security role assigned to them in Dataverse that gives them the appropriate privileges on the entities. 
 
 
 ## AppSource third-party app 
@@ -175,6 +181,7 @@ Many Azure services, including Cosmos DB, are supported by Power Platform. Data 
 ## Power Platform Analytics. 
 With Power Platform Analytics you can access reports about usage, the location where users are accessing the solutions from, and measure Microsoft Dataverse 
 storage. 
+Power Platform analytics provides information about usage, errors, and service performance. 
 
 ## Microsoft 365 admin center. 
 This service creates new users in Power Platform, manages their license assignment and manages billing and payment methods. 
@@ -183,20 +190,67 @@ This service creates new users in Power Platform, manages their license assignme
 * This admin center can create new user accounts and manage their license assignment. 
 * You can also manage billing and payment methods in this admin center. 
 
+You should use licenses to allow users to use Power Platform. Users require a license to access Power Apps, Power Automate flows, and Power Bl. Dynamics 365 and some Offce 365 plans contain licenses to create and use Power Apps and Power Automate. You can purchase dedicated licenses for Power Apps and Power Automate. Power Bl is licensed separately. 
+
+
 ## Microsoft Intune. 
 This service manages and enforces settings or policies in mobile devices. 
 
 ## Azure Stream Analytics. 
 This is a streaming engine that provides real-time analytics and processes high volumes of streaming data from multiple sources. 
+Azure Stream Analytics is used to monitor real-time analytics of streaming datasets. 
 
 ## Power Platform Admin Center
 You should use the Power Platform admin center to assign a user to the Environment Admin role. 
 You can use this admin center to manage environments, including the apps and flows within an environment. 
 
+You should use the Power Platform admin center to assign the Environment Maker role to everyone in your organization. Users with this role can create apps, connections, and flows within an environment. 
+
+You should use the Power Platform admin center to create a Microsoft Dataverse database for an environment. 
+
+You should use the Power Platform Admin center to monitor Power Automate usage. You can go to the Analytics tab and select Power Automate to see the usage. 
+You should also use the Power Platform Admin center to create a new app environment. You can go to the Environments tab and create a new environment. 
+
+
 ## Power Bl admin portal. 
 You can use the admin portal to manage a Power Bl tenant for your organization, including usage metrics, audit logs and tenant settings. 
+
+Power Bl Admin portal allows you to administer a Power Bl tenant. You can allow or restrict certain operations such as who can publish a report or create a new workspace in your tenant. You cannot create a user, environment, or Microsoft Dataverse database from the Power Bl Admin portal. 
+
+You should use the Power Bl Admin center to restrict users from creating workspaces. You can do this by going to the Power Bl Admin center and tenant setting. With this option, you can set workspace properties and create permissions. 
+
+
+
 
 ## Power Apps Maker portal. 
 You can use the maker portal to build and edit apps and to create tables and other components in Dataverse.
 
+The Power Apps maker portal allows you to create and edit apps. It does not allow you to create Dataverse databases. 
+The maker portal allows you to create and edit apps. It does not allow you to create environments. 
+
+
+## Azure Active Directory
+You should use Azure AD to create a new user. You should log in to the Azure portal using the Administrator account and select Azure AD, and then select Users, click New User, fill out the information and click Save. 
+
+
+
+### Microsoft 365 usage analytics. 
+Microsoft 365 usage analytics provides information about the usage of Microsoft 365 services and products. 
+
+### Azure Application Insights. 
+Application Insights is used to monitor application performance. 
+ 
+
+You should use **Sharing** to allow users to see and run apps. Sharing an app is the method the Power Platform uses to deploy apps to users. An app must be shared with a user, or a security group the user belongs to, before the user can run the app. 
+
+**Security roles** are groups of privileges and are used to grant access to entities and their data within Microsoft Dataverse. 
+**Security groups**. Offce 365 and Azure AD Security groups are used to control access to environments in the Power Platform. 
+
+## Compliance
+Apps built in Power Apps are HIPAA / HI TECH, GDPR, and FERPA compliant. Microsoft offers national, regional, global, and industry-specific compliance offerings to protect your data.
+[Family Educational Rights and Privacy Act (FERPA)](https://docs.microsoft.com/en-us/compliance/regulatory/offering-FERPA?view=o365-worldwide)
+[General Data Protection Regulation Summary](https://docs.microsoft.com/en-us/compliance/regulatory/gdpr?view=o365-worldwide)
+[Health Insurance Portability and Accountability Act (HIPAA) & Health Information Technology for Economic and Clinical Health (HITECH) Act](https://docs.microsoft.com/en-us/compliance/regulatory/offering-hipaa-hitech?view=o365-worldwide)
+[Azure, Dynamics 365, and Microsoft 365 compliance offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home?view=o365-worldwide)
+[Compliance and data privacy](https://docs.microsoft.com/en-us/power-platform/admin/wp-compliance-data-privacy)
 
