@@ -1,4 +1,4 @@
-# DP-900
+# PL-900
 
 [Describe the business value of Power Platform (15-20%)](https://github.com/codess-aus/DP-900.MD/blob/main/Bus_value.md)
 
