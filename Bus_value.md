@@ -16,6 +16,8 @@ You should configure a Power Bl report to capture and analyze data from Twitter.
 You should use Power Bl to connect the Twitter account of the marketing team and analyze user activity during the campaign duration. 
 Power Bl processes business data and allows you to display it in different ways. 
 
+Use Power Bl services to create a sales dashboard using the source data. You can use Power Bl to create a visual dashboard connecting directly to a dataset using the SQL Server database. Using this dashboard, the salespeople will not need to enter the data from the application in a Microsoft Excel spreadsheet at the end of the month. The board of directors will have the updated information directly from the dashboard. 
+
 Create a new customer site for your followers with **Power Apps Portals**. You can increase the number of followers with a customer site in Power Apps Portal. However, this will not help you to understand the customers and increase their engagement. 
 
 **Power Virtual Agents:** power Virtual Agents is used to create chatbots With the help Of a IOW-code / no-code interface. 
@@ -27,14 +29,19 @@ You should recommend Power Automate to build automatic workflows that access dat
 Power Automate can be used to create automatic workflows for business processes, like sending an email notification when a sales order is created or integrating data from custom APIs with internal data sources. 
 Power Automate automates business workflows like communication and decision approvals. 
 In Power Platform, Power Automate is a cloud-based service that makes it simple for any user to build workflows that automate time-consuming tasks and processes across applications and services. 
+Use Power Automate to create an approval flow. You can use Power Automate to improve the sales order approval process by using an approval flow to notify the salespeople's manager about new orders. By using the SQL Server connector, you can start this workflow at the moment a sales order is created in the database using the When an item is created trigger. 
 
 
 **Azure Functions** To use Azure Functions, business users should have software development skills in order to perform these tasks. 
 
 **Connectors** are used to connect your data source to your Power Apps apps, Power Automate workflows, or Power Bl dashboard. 
+You can use a custom connector to integrate Power Platform with services without built-in support. You could use a custom connector to integrate a third- 
+party application with Power Platform. However, you can use the built-in SQL Server connector to access this application's data. 
 
 **Dataverse** You can use Dataverse to store business data used by your applications. The data is organized as tables. A table is a set of rows used to store data. 
 
+You can use Dataverse to store your data in a set of standard or custom tables used by business applications. But if the third-party application uses SQL Server to store the data, then you do not need to replicate this data in Dataverse to create the sales dashboard. 
 
+**AppSource third-party app**. You can use AppSource as an online store for business applications. You can publish or discover new add-ins for Power Platform, like custom connectors or Power Bl apps. But if the third-party application publisher does not support Power Platform directly, then it is highly improbable that you will find an add-in to integrate with the application. 
 
 
