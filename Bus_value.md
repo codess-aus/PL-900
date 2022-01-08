@@ -33,6 +33,8 @@ You should use Power Bl to analyze data for insights. Power Bl allows you to gat
 
 You should use Power Bl to create data visualizations. Power Bl allows you to gather data from multiple sources, model it, create visualizations, reports and dashboards. 
 
+You can use Power Bl services to create dashboards and reports to help users to visualize data from internal and external sources. 
+
 ## Power Apps Portal
 Create a new customer site for your followers with **Power Apps Portals**. You can increase the number of followers with a customer site in Power Apps Portal. However, this will not help you to understand the customers and increase their engagement. 
 
@@ -58,6 +60,7 @@ Use Power Automate to create an approval flow. You can use Power Automate to imp
 Power Automate is used to create workflows to automate within and across cloud services. 
 You should use Power Automate to create flows that automate repetitive tasks like approvals, emails and copying files. 
 Power Automate is used to create flows that automate repetitive tasks like approvals, emails, and copying files.
+You can create a flow in Power Automate to send an event notification via email in response to the business event of creating a new sales order. 
 
 You should recommend Power Automate to notify support technicians when new tickets are created. When a ticket is stored in Dataverse, you can start an automated flow to notify the support technicians, making them aware about new tickets. 
 
@@ -78,6 +81,9 @@ You should use Microsoft Dataverse to create tables for data. Dataverse is a dat
 
 You should recommend Microsoft Dataverse to store support tickets and enforce business rules. You can store the tickets created in Power Apps portal to Dataverse and apply business rules to ensure data validation across every app or flow that uses these tickets. 
 
+You can use Dataverse to store business data used by your applications. This data is organized as tables. A table is a set of rows used to store data. Data from 
+Dynamics 365 is also stored within Dataverse and you can build apps using these tables. However, you cannot notify a user when a new sales order is created. 
+
 ## AppSource third-party app 
 You can use AppSource as an online store for business applications. You can publish or discover new add-ins for Power Platform, like custom connectors or Power Bl apps. But if the third-party application publisher does not support Power Platform directly, then it is highly improbable that you will find an add-in to integrate with the application. 
 
@@ -89,6 +95,15 @@ Al Builder allows you to automate form processing and predict outcomes like reco
 You should use the Al Builder pre-built model to perform sentiment analysis. Al Builder allows you to perform sentiment analysis, automate form processing, and predict outcomes like recognizing an image. 
 
 You should use the Al Builder pre-built model to evaluate feedback. Al Builder allows you to perform sentiment analysis, automate form processing, and predict outcomes like recognizing an image. 
+
+You can use Al Builder to bring Artificial Intelligence (Al) features to Power Platform. Al Builder is based on model types that you can use to respond to business needs, like building an object detection model that recognizes your products in an image, or a prediction model that predicts outcomes based on patterns that the Al learns from your historical data. 
+
+## Business Events. 
+You can use Business Events to notify external systems about business events in Dynamics 365 Finance and Operations. You can perform business actions in response to these 
+events. For example, you can start a workflow in Power Automate in response to a business event or integrate with Azure services, like Event Grid or Service Bus. 
+
+
+
 
 
 
