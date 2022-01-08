@@ -1,6 +1,6 @@
 # DP-900
 
-Describe the business value of Power Platform (15-20%)
+[Describe the business value of Power Platform (15-20%)](https://github.com/codess-aus/DP-900.MD/blob/main/Bus_value.md)
 Describe the business value of Power Platform services
 
 * analyze data by using Power BI
