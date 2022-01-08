@@ -16,7 +16,11 @@ You can run the app in any device, including desktops and mobile devices. Apps d
 Although you can embed a Power app in a Portal app, customers will need to be in your Azure Active Directory (Azure AD) and have a Power Apps license. A Power app could assist 
 users but would require a lot of work to create the intelligence and automation required. 
 
+### Canvas Apps
 
+* You can create meetings for Offce 365 using the Power Apps canvas app. You can use a meeting screen to create and send meeting requests through Canvas App. 
+* You can update a Dynamics 365 opportunity using the Power Apps canvas app. You connect your Canvas App to Dynamics 365 using a built-in connector and access the opportunity entity. 
+* You can view Office 365 groups in your organization using an Offce 365 connector. You can use an Office 365 connector to connect to your tenant.
 
 ## PowerBI
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
