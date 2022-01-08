@@ -24,6 +24,12 @@ users but would require a lot of work to create the intelligence and automation 
 
 You can use a Power Apps canvas app with Al Builder form processing to scan the employee admission paper file. You can build a form with Al Builder form processing to extract information from printed documents. The model can be integrated with Power Apps canvas apps using the form processor component to take pictures from the admission file. 
 
+You should add the Power Apps app in Teams and create a canvas app inside Teams. Using Dataverse for Teams you can create a canvas app from within Microsoft Teams that can be accessed by all members of the team. No additional licensing is required to use *Dataverse for Teams* if the user has a relevant Microsoft 365 license such as E3, E5, or F4. 
+
+You can also create a canvas app in Power Apps Studio using Microsoft Lists as the data source. Microsoft Lists uses the SharePoint connector. No additional licensing is required as SharePoint is standard connector and the license to use SharePoint is seeded from a Microsoft 365 license. 
+
+
+
 
 ## PowerBI
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
@@ -126,6 +132,10 @@ You need to create a Dataverse database to be able to use some Power Platform co
 
 You cannot provision a Dataverse database in your own data center to integrate on-premises solutions. Dataverse is offered only as a service managed by Microsoft. You cannot provision a Dataverse database as an on-premises solution. You need to use an on-premises data gateway to integrate data from on-premises solutions with Dataverse.
 
+You should not create a canvas app in Power Apps Studio using Dataverse as the data source. Dataverse is a premium connector that requires additional licensing to use. 
+
+You should not create a **model-driven app**. Model-driven apps require Microsoft Dataverse, which is a **premium connector** and will require additional licensing
+
 
 ## AppSource third-party app 
 You can use AppSource as an online store for business applications. You can publish or discover new add-ins for Power Platform, like custom connectors or Power Bl apps. But if the third-party application publisher does not support Power Platform directly, then it is highly improbable that you will find an add-in to integrate with the application. 
@@ -162,9 +172,18 @@ Microsoft Dynamics 365 apps are supported by Power Platform. Microsoft Dataverse
 Many Azure services, including Cosmos DB, are supported by Power Platform. Data stored in Cosmos DB can be analyzed using Power Bl. 
 
 
+## Power Platform Analytics. 
+With Power Platform Analytics you can access reports about usage, the location where users are accessing the solutions from, and measure Microsoft Dataverse 
+storage. 
 
+## Microsoft 365 admin center. 
+This service creates new users in Power Platform, manages their license assignment and manages billing and payment methods. 
 
+## Microsoft Intune. 
+This service manages and enforces settings or policies in mobile devices. 
 
+## Azure Stream Analytics. 
+This is a streaming engine that provides real-time analytics and processes high volumes of streaming data from multiple sources. 
 
 
 
