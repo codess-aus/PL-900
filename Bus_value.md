@@ -15,6 +15,7 @@ You should use Power Apps to create an appointment booking app. Power Apps allow
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
 Power Bl allows you to create reports and dashboards that analyze data and provide insights in an understandable manner. 
 
+Power Bl allows you to create visuals and reports to better understand your data. 
 You should use Power Bl to create reports and dashboards that analyze raw data and provide insights in an understandable manner. 
 
 You should recommend Power Bl to create reports that analyze critical business operations. 
@@ -32,10 +33,12 @@ You should use Power Bl to analyze data for insights. Power Bl allows you to gat
 
 You should use Power Bl to create data visualizations. Power Bl allows you to gather data from multiple sources, model it, create visualizations, reports and dashboards. 
 
-## Power Apps Portals
+## Power Apps Portal
 Create a new customer site for your followers with **Power Apps Portals**. You can increase the number of followers with a customer site in Power Apps Portal. However, this will not help you to understand the customers and increase their engagement. 
 
 Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Dataverse. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
+
+You should recommend Power Apps portal to allow customers to submit their support tickets. Apps created in Power Apps portal can be accessed in any browser or mobile phone. Customers can create the support tickets directly accessing the app via a Desktop browser or using the Power Apps portal mobile application. 
 
 ## Power Virtual Agents 
 power Virtual Agents is used to create chatbots With the help Of a IOW-code / no-code interface. 
@@ -56,6 +59,8 @@ Power Automate is used to create workflows to automate within and across cloud s
 You should use Power Automate to create flows that automate repetitive tasks like approvals, emails and copying files. 
 Power Automate is used to create flows that automate repetitive tasks like approvals, emails, and copying files.
 
+You should recommend Power Automate to notify support technicians when new tickets are created. When a ticket is stored in Dataverse, you can start an automated flow to notify the support technicians, making them aware about new tickets. 
+
 ## Azure Functions 
 To use Azure Functions, business users should have software development skills in order to perform these tasks. 
 
@@ -71,6 +76,8 @@ You can use Dataverse to store your data in a set of standard or custom tables u
 
 You should use Microsoft Dataverse to create tables for data. Dataverse is a data store that provides data and services to apps such as Power Apps and model-driven apps. Dataverse contains a set of standard tables that you can extend by creating your own tables, columns, and relationships to meet your business requirements. 
 
+You should recommend Microsoft Dataverse to store support tickets and enforce business rules. You can store the tickets created in Power Apps portal to Dataverse and apply business rules to ensure data validation across every app or flow that uses these tickets. 
+
 ## AppSource third-party app 
 You can use AppSource as an online store for business applications. You can publish or discover new add-ins for Power Platform, like custom connectors or Power Bl apps. But if the third-party application publisher does not support Power Platform directly, then it is highly improbable that you will find an add-in to integrate with the application. 
 
@@ -82,6 +89,10 @@ Al Builder allows you to automate form processing and predict outcomes like reco
 You should use the Al Builder pre-built model to perform sentiment analysis. Al Builder allows you to perform sentiment analysis, automate form processing, and predict outcomes like recognizing an image. 
 
 You should use the Al Builder pre-built model to evaluate feedback. Al Builder allows you to perform sentiment analysis, automate form processing, and predict outcomes like recognizing an image. 
+
+
+
+
 
 
 
