@@ -4,6 +4,7 @@ Use **Power Apps** to create a mobile app for your IT workers: Power Apps eases 
 You should recommend Power Apps to create custom apps that meet specific business needs. 
 Power Apps can be used to create and share custom apps that meet specific business needs without requiring the business users to have software development skills. 
 Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps. 
+You can use Power Apps to build and deploy customized apps that work on any device without writing code. 
 
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
 
@@ -25,7 +26,15 @@ Configure Power Automate to handle internal approvals.
 You should recommend Power Automate to build automatic workflows that access data from multiple sources. 
 Power Automate can be used to create automatic workflows for business processes, like sending an email notification when a sales order is created or integrating data from custom APIs with internal data sources. 
 Power Automate automates business workflows like communication and decision approvals. 
+In Power Platform, Power Automate is a cloud-based service that makes it simple for any user to build workflows that automate time-consuming tasks and processes across applications and services. 
 
 
 **Azure Functions** To use Azure Functions, business users should have software development skills in order to perform these tasks. 
+
+**Connectors** are used to connect your data source to your Power Apps apps, Power Automate workflows, or Power Bl dashboard. 
+
+**Dataverse** You can use Dataverse to store business data used by your applications. The data is organized as tables. A table is a set of rows used to store data. 
+
+
+
 
