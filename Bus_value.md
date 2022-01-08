@@ -22,6 +22,9 @@ users but would require a lot of work to create the intelligence and automation 
 * You can update a Dynamics 365 opportunity using the Power Apps canvas app. You connect your Canvas App to Dynamics 365 using a built-in connector and access the opportunity entity. 
 * You can view Office 365 groups in your organization using an Offce 365 connector. You can use an Office 365 connector to connect to your tenant.
 
+You can use a Power Apps canvas app with Al Builder form processing to scan the employee admission paper file. You can build a form with Al Builder form processing to extract information from printed documents. The model can be integrated with Power Apps canvas apps using the form processor component to take pictures from the admission file. 
+
+
 ## PowerBI
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
 Power Bl allows you to create reports and dashboards that analyze data and provide insights in an understandable manner. 
@@ -52,6 +55,11 @@ Create a new customer site for your followers with **Power Apps Portals**. You c
 Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Dataverse. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
 
 You should recommend Power Apps portal to allow customers to submit their support tickets. Apps created in Power Apps portal can be accessed in any browser or mobile phone. Customers can create the support tickets directly accessing the app via a Desktop browser or using the Power Apps portal mobile application. 
+
+You cannot create a Power Apps portal for the HR department to manage user identity in Microsoft Dataverse. You can create a Power Apps portal to extend Dataverse and instruct the HR department to manage user table in Dataverse. However, user table is not integrated with Azure AD. You need to implement an additional Power Automate flow to create users when new records are created in Dataverse. 
+
+
+
 
 ## Power Virtual Agents 
 power Virtual Agents is used to create chatbots With the help Of a IOW-code / no-code interface. 
@@ -86,6 +94,7 @@ You can create and send invoices to customers via email. You can recommend Power
 
 Power Automate flows and UI flows cannot interact with customers on the power app portal. 
 
+You can automate the user creation via email with a Power Automate flow. You can use more than two hundred built-in connectors with Power Automate. These connectors include the Offce 365 Outlook connector and the Azure AD connector. You can create a workflow that is triggered when you receive an email from the HR department, read the user information contained in the email and create a user in Azure AD with the Azure AD connector. 
 
 
 ## Azure Functions 
