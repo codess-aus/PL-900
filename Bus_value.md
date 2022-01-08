@@ -111,6 +111,13 @@ You should recommend Microsoft Dataverse to store support tickets and enforce bu
 You can use Dataverse to store business data used by your applications. This data is organized as tables. A table is a set of rows used to store data. Data from 
 Dynamics 365 is also stored within Dataverse and you can build apps using these tables. However, you cannot notify a user when a new sales order is created. 
 
+You can use Microsoft Dataverse as a single data source to standardize business data across multiple solutions. You can use Dataverse to store your data in a set of standard or custom tables that are used by business applications. Dataverse uses the Common Data Model (CDM), a set of standardized, extensible data schemas published by Microsoft and partners to facilitate data interoperability across multiple solutions. 
+
+You need to create a Dataverse database to be able to use some Power Platform components. You need to create a Dataverse database to use services like Al Builder and Power Apps portals that require constant data access. 
+
+You cannot provision a Dataverse database in your own data center to integrate on-premises solutions. Dataverse is offered only as a service managed by Microsoft. You cannot provision a Dataverse database as an on-premises solution. You need to use an on-premises data gateway to integrate data from on-premises solutions with Dataverse.
+
+
 ## AppSource third-party app 
 You can use AppSource as an online store for business applications. You can publish or discover new add-ins for Power Platform, like custom connectors or Power Bl apps. But if the third-party application publisher does not support Power Platform directly, then it is highly improbable that you will find an add-in to integrate with the application. 
 
