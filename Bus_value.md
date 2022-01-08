@@ -179,13 +179,24 @@ storage.
 ## Microsoft 365 admin center. 
 This service creates new users in Power Platform, manages their license assignment and manages billing and payment methods. 
 
+* You should use the Microsoft 365 admin center to create new users for Power Apps. 
+* This admin center can create new user accounts and manage their license assignment. 
+* You can also manage billing and payment methods in this admin center. 
+
 ## Microsoft Intune. 
 This service manages and enforces settings or policies in mobile devices. 
 
 ## Azure Stream Analytics. 
 This is a streaming engine that provides real-time analytics and processes high volumes of streaming data from multiple sources. 
 
+## Power Platform Admin Center
+You should use the Power Platform admin center to assign a user to the Environment Admin role. 
+You can use this admin center to manage environments, including the apps and flows within an environment. 
 
+## Power Bl admin portal. 
+You can use the admin portal to manage a Power Bl tenant for your organization, including usage metrics, audit logs and tenant settings. 
 
+## Power Apps Maker portal. 
+You can use the maker portal to build and edit apps and to create tables and other components in Dataverse.
 
 
