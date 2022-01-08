@@ -130,7 +130,16 @@ Dynamics 365 Remote Assist allows field workers to share what they can see using
 They do not allow support agents to co-browse or chat with customers on the power app portal. 
 
 
+## Microsoft Teams
+Microsoft Teams like many services provided with Offce 365, is supported by Power Platform. You can embed a canvas app within a team. You can manage Power Automate Approvals in Teams. There is also a Flow bot. 
 
+
+## Microsoft Dynamics 365 apps 
+Microsoft Dynamics 365 apps are supported by Power Platform. Microsoft Dataverse is the platform on which Dynamics 365 Sales, Customer Service, Field Service, and Marketing are built. You can create Power Apps to access Dynamics 365 data, you can create flows to automate Dynamics 365 processes, and you can use Power Bl to analyze Dynamics 365 data. 
+
+
+## CosmosDB
+Many Azure services, including Cosmos DB, are supported by Power Platform. Data stored in Cosmos DB can be analyzed using Power Bl. 
 
 
 
