@@ -1,5 +1,6 @@
+# PowerApps
 
-Use **Power Apps** to create a mobile app for your IT workers: Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps. 
+Use Power Apps to create a mobile app for your IT workers: Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps. 
 
 Power apps are custom apps you build to display and capture data on web and mobile devices. 
 You should recommend Power Apps to create custom apps that meet specific business needs. 
@@ -9,6 +10,7 @@ You can use Power Apps to build and deploy customized apps that work on any devi
 Power Apps is used to create customized apps that meet business requirements and increase efficiency. 
 You should use Power Apps to create customized apps that meet business requirements and increase effciency. 
 
+## PowerBI
 Build a Dashboard using **Power Bl** by connecting your SharePoint list to Power Bl and analyzing your inventory data. power Bl takes business data and allows you to display it in ways that makes the most sense to users. 
 
 You should use Power Bl to create reports and dashboards that analyze raw data and provide insights in an understandable manner. 
@@ -28,6 +30,7 @@ You should use Power Bl to analyze data for insights. Power Bl allows you to gat
 
 You should use Power Bl to create data visualizations. Power Bl allows you to gather data from multiple sources, model it, create visualizations, reports and dashboards. 
 
+### Power Apps Portals
 Create a new customer site for your followers with **Power Apps Portals**. You can increase the number of followers with a customer site in Power Apps Portal. However, this will not help you to understand the customers and increase their engagement. 
 
 Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Dataverse. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
@@ -37,7 +40,7 @@ You should use **Power Virtual Agent** to build intelligent bots. Power Virtual 
 Power Virtual Agents allows you to create bots without writing code. 
 You should use Power Virtual Agents to create customer support chatbots. Power Virtual Agents allows you to create bots without writing code. 
 
-***Power Automate:*** Power Automate automates business workflows like communication and decision approvals. 
+**Power Automate:** Power Automate automates business workflows like communication and decision approvals. 
 Configure Power Automate to handle internal approvals.
 You should recommend Power Automate to build automatic workflows that access data from multiple sources. 
 Power Automate can be used to create automatic workflows for business processes, like sending an email notification when a sales order is created or integrating data from custom APIs with internal data sources. 
