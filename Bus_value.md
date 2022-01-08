@@ -1,6 +1,7 @@
 
 Use **Power Apps** to create a mobile app for your IT workers: Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps. 
 
+Power apps are custom apps you build to display and capture data on web and mobile devices. 
 You should recommend Power Apps to create custom apps that meet specific business needs. 
 Power Apps can be used to create and share custom apps that meet specific business needs without requiring the business users to have software development skills. 
 Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps. 
@@ -18,10 +19,14 @@ Power Bl processes business data and allows you to display it in different ways.
 
 Use Power Bl services to create a sales dashboard using the source data. You can use Power Bl to create a visual dashboard connecting directly to a dataset using the SQL Server database. Using this dashboard, the salespeople will not need to enter the data from the application in a Microsoft Excel spreadsheet at the end of the month. The board of directors will have the updated information directly from the dashboard. 
 
+You should use Power Bl to analyze data for insights. Power Bl allows you to gather data from multiple sources, model it, and create visualizations, reports, and dashboards. Power Bl is a self-service data analytics tool that users can use to analyze the data in many ways, ask questions of the data, and gain insights into the data. 
+
+You should use Power Bl to create data visualizations. Power Bl allows you to gather data from multiple sources, model it, create visualizations, reports and dashboards. 
+
 Create a new customer site for your followers with **Power Apps Portals**. You can increase the number of followers with a customer site in Power Apps Portal. However, this will not help you to understand the customers and increase their engagement. 
 
 **Power Virtual Agents:** power Virtual Agents is used to create chatbots With the help Of a IOW-code / no-code interface. 
-
+You should use **Power Virtual Agent** to build intelligent bots. Power Virtual Agents is a tool to create Al powered chat bots without code in a drag and drop user interface. You can deploy Power Virtual Agent bots to various channels including your website. 
 
 **Power Automate:** Power Automate automates business workflows like communication and decision approvals. 
 Configure Power Automate to handle internal approvals.
@@ -30,7 +35,7 @@ Power Automate can be used to create automatic workflows for business processes,
 Power Automate automates business workflows like communication and decision approvals. 
 In Power Platform, Power Automate is a cloud-based service that makes it simple for any user to build workflows that automate time-consuming tasks and processes across applications and services. 
 Use Power Automate to create an approval flow. You can use Power Automate to improve the sales order approval process by using an approval flow to notify the salespeople's manager about new orders. By using the SQL Server connector, you can start this workflow at the moment a sales order is created in the database using the When an item is created trigger. 
-
+Power Automate is used to create workflows to automate within and across cloud services. 
 
 **Azure Functions** To use Azure Functions, business users should have software development skills in order to perform these tasks. 
 
@@ -42,6 +47,10 @@ party application with Power Platform. However, you can use the built-in SQL Ser
 
 You can use Dataverse to store your data in a set of standard or custom tables used by business applications. But if the third-party application uses SQL Server to store the data, then you do not need to replicate this data in Dataverse to create the sales dashboard. 
 
+You should use Microsoft Dataverse to create tables for data. Dataverse is a data store that provides data and services to apps such as Power Apps and model-driven apps. Dataverse contains a set of standard tables that you can extend by creating your own tables, columns, and relationships to meet your business requirements. 
+
 **AppSource third-party app**. You can use AppSource as an online store for business applications. You can publish or discover new add-ins for Power Platform, like custom connectors or Power Bl apps. But if the third-party application publisher does not support Power Platform directly, then it is highly improbable that you will find an add-in to integrate with the application. 
+
+**Al Builder** is a tool for creating models such as prediction and classification that you can use in your Power Apps and Flows. 
 
 
