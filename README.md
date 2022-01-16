@@ -24,7 +24,7 @@ Describe Power Platform administration and security
 * describe Data Loss Prevention (DLP) policies
 * describe how the platform supports privacy and accessibility guidelines
 
-Identify the Core Components of Power Platform (15-20%)
+[Identify the Core Components of Power Platform (15-20%)](https://github.com/codess-aus/PL-900/blob/main/Core_components.md)
 Describe Microsoft Dataverse
 * describe the Power Apps user experience
 * describe tables, columns, and relationships
