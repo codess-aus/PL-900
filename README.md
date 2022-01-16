@@ -25,7 +25,8 @@ Describe Power Platform administration and security
 * describe how the platform supports privacy and accessibility guidelines
 
 [Identify the Core Components of Power Platform (15-20%)](https://github.com/codess-aus/PL-900/blob/main/Core_components.md)
-Describe Microsoft Dataverse
+
+* Describe Microsoft Dataverse
 * describe the Power Apps user experience
 * describe tables, columns, and relationships
 * describe use cases for solutions
