@@ -159,9 +159,9 @@ You should not use a premium connector. Connectors can be standard, premium or c
 You do not need to open inbound firewall ports to access an on-premises SQL server. Installing the on- premises data gateway enables on-premises databases to trigger flows and Power Apps to read and write data.
 
 
-You are building Power Platform solutions for your company. 
-The company needs to scan invoice data in Power Platform apps. 
-You need to use Al guilder to implement the solution. 
+Example Power Platform solution: 
+* The company needs to scan invoice data in Power Platform apps. 
+* You need to use Al guilder to implement the solution. 
 Which four actions should you perform in sequence? 
 
 1. Build a form processing model in Al guilder. 
@@ -177,11 +177,15 @@ You should then publish the model. After you train the model, you have to publis
 
 Finally, pu should use the model in Power Apps. You can use the form processor control component to scan the invoice and read the data that you need to extract. 
 
+### AI Builder
 
+You can perform sentiment analysis for tweets about your brand. You can use the prebuilt Sentiment analysis model of Al guilder to determine the sentiment for a tweet. 
+You can categorize tweets as positive, negative, neutral, or mixed and take actions based on that analysis. 
+This model can be implemented in a Power Automate flow to automate the tweet analysis. 
 
+You can detect and tag your products in Instagram posts. You can use the object detection model to recognize pur products in images posted on Instagram after you train your model with images of your products. 
 
-
-
+You can predict if a customer Will buy a product based on historical data. You can use the prediction model to analyze patterns in your historical data and predict an outcome for new data. This model can address business questions with available options, like yes or no, go or no go, pass or fail and true or false. 
 
 
 
