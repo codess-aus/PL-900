@@ -43,9 +43,15 @@ In a business process flow you can define a set of stages and steps to be follow
 
 You can validate data and show error messages, set column values, enable or disable columns, and create business recommendations when pu are developing a model-driven app. You can use all actions available in business rules when you are developing a model-driven app. 
 
+You cannot create a business rule on a table to show or hide specific columns for canvas apps. You can create a business rule on a table to show or hide specific columns for only model-driven apps. 
+
 ### Canvas Apps
 
 You can validate data, show error messages, and set column values when you are developing a canvas app. Canvas apps can use almost all business rules actions, except show or hide columns, enable or disable columns, and create business recommendations.
+
+You can create business rules on tables to validate data and show error messages for both canvas and model-driven apps. 
+
+You can create a business rule on a table to set or clear specific column values for both canvas and model-driven apps. 
 
 
 
