@@ -97,6 +97,11 @@ When a managed solution is imported, the solution cannot be edited.
 
 You cannot add components to a managed solution or edit compnonents in a managed solution. You cannot export a managed solution.
 
+### Triggers 
+Triggers are supported by Power Automate only. You need a trigger to start a flow You can configure a time based trigger, which runs in a schedule, or an event based trigger, like receiving an email. 
+
+### Actions
+Actions are supported by Power Apps and Power Automate. An action can be initiated by a trigger or by user input. An action executes functions that interact with your data source. For example, you can start an action to send an email in your workflow, or you can initiate an action to create a purchase order by clicking on the Submit button in your app. 
 
 
 A **calculated column** is only re-calculated when the form is saved, not when a column is changed. Thus, the commission calculation will not be displayed immediately but when 
