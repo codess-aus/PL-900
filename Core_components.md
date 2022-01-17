@@ -135,6 +135,13 @@ You do not need to create a custom connector to access an external data source. 
 
 You should use a custom connector to connect to the external data source. You need to create a custom connector and provide API credentials so it can authenticate your connection if there is not one available.
 
+You can build a custom connector for Power Automate and reuse the same connector for Power Apps. 
+You can build a custom connector for the custom services once and use the same connector in Power Apps, Power Automate and Azure Logic App. 
+
+You can build and use a custom connector without a certification from Microsoft. You can build and share a custom connector in your organization without a certification from Microsoft 
+
+You cannot publish a custom connector as a public connector without a certification from Microsoft. You need to submit your custom connector to Microsoft to certify it before making it available to the public. 
+
 SharePoint connectors are used to connect with SharePoint lists. 
 
 **Logic apps** are used to automate tasks, workflows, and business processes. 
