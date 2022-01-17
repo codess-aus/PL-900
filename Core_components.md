@@ -111,6 +111,12 @@ Solution.
 
 You should not export the **Common Data Service Default Solution**. All metadata components, such as tables, created outside of a solution are automatically added to the Common Data Service Default Solution. However, apps are not added automatically to this solution. The Common Data Service Default Solution will not contain all the components that need to be exported. 
 
+### Connectors
+You should use the Dynamics 365 for Fin and Ops connector to update the sales order. You can use this connector to update an existing data record for a data entity in Dynamics 365 Finance and Operations. 
+
+You should use a custom connector to request freight estimation. Power Automate offers more than two hundred built-in connectors for Microsoft and non-Microsoft products and services. If the service you want to integrate does not have a built-in connector, you can create and share a custom connector. 
+
+You should not use the Dynamics 365 Sales Insights connector. Dynamics 365 Sales Insights empowers sellers to deliver personalized engagement for customers using Al-driven insights. You cannot use this connector to update sales orders. 
 
 
 
