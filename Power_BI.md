@@ -53,6 +53,8 @@ You could also publish the report as an app to your co-workers. You can create a
 ## Dashboard. 
 Dashboard is a collection of visuals from a Power BI report hosted in Power AI Service. 
 
+In Power al, pu can create a dashboard that displays your company s most important Key Performance Indicators (KPls) in a single page by using interactive visuals, text, and graphics called tiles. Each tile can use information from a single dataset, but a dashboard can use multiple tiles which can show information from multiple datasets.
+
 Dashboards contain visualizations from your reports. You can share dashboards with other users. 
 
 You should recommend a dashboard to display the company's KPls 
@@ -63,6 +65,14 @@ Because the dashboard is composed of only one page, you should include only the 
 You should recommend a dashboard to configure alerts when a specific threshold target is met With a dashboard, the managers can configure a data alert on the tiles that they are most interested in. For example, a sales manager can configure an alert when the total sales are above the expected. Data alerts are available only for the user who created them. 
 
 You cannot apply filters to a dashboard. 
+
+**Comment feature**. This feature allows you to collaborate with others and the @mentions feature allows you to grab the attention of your colleagues. 
+
+**Spotlight feature**. This feature simply highlights the selected visual on your display. 
+
+**Export the data feature**. Exporting the data 
+
+**Subscribe feature**. This feature will email you a snapshot of the dashboard for the frequency you select. 
 
 Dashboards are created in the Power BI Service, not in Power BI Desktop. In Power BI Service, you add visualizations from your reports to dashboards.
 
@@ -184,3 +194,14 @@ You should use the Power BI (Pro) license to publish and share reports through P
 You should use the Power BI (Embedded) license to integrate your Power BI reports and dashboard into your company website. Power BI Embedded is a subscription offered through Azure. 
 
 The Power BI (Premium) license allows you to run your reports and dashboards in a dedicated resource capacity. 
+
+Example: Your company uses D365 Business Central, you want a quick report on Sales:
+
+You should use the **Dynamics 365 Business Central Sales app from AppSource**. This is a pre-built app that you can connect to your Dynamics 365 instance to show default reports. 
+
+You should not use Dynamics 365 (Online) Connector. This would let you connect to your Dynamics 365 instance and build a report, but that would take time, and you need to produce the report quickly. 
+
+You should not use Dynamics 365 Business Central Connector. This would let you connect to your Dynamics 365 instance and build a report, but that would take time, and you need to produce the report quickly. 
+
+You should not use the Microsoft Dataverse Connector. This would let you connect to Dataverse, where all underlying data is stored for your Dynamics 365 instance. It would be very time-consuming to get the required data and build a report. 
+
