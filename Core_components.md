@@ -83,7 +83,15 @@ You can create business rules on tables to validate data and show error messages
 
 You can create a business rule on a table to set or clear specific column values for both canvas and model-driven apps. 
 
+### Unmanaged Solutions
+You can only add existing compn)nents to an unmanaged solution. You cannot add or remove compnonents from a managed solution. 
 
+To allow other app makers to make changes to your components including your app, you must export the solution as an unmanaged solution. 
+The solution can then be imported into their environment and the compnonents can be changed. 
+
+### Managed Solutions
+To prevent other app makers from making changes to your components including your app, you must export the solution as a managed solution. 
+When a managed solution is imported, the solution cannot be edited.
 
 A **calculated column** is only re-calculated when the form is saved, not when a column is changed. Thus, the commission calculation will not be displayed immediately but when 
 the form is auto-saved up to 30 seconds later.
