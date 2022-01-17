@@ -24,6 +24,11 @@ Dataverse is used to store and manage data used by business applications.
 The data is stored within a set of entities. 
 Dataverse uses the CDM to provide a set of standardized entities used by your applications. 
 
+You can control access to data at organizational level when table ownership is set to organization owned. 
+You can create a business rule to apply business logic and validation rules. 
+You cannot change the ownership of a custom table. Once the custom table is created and ownership is set, you are not allowed to change the ownership. You need to create a new custom table in order to change table ownership. 
+
+
 ### Dynamics 365 Business Central. 
 
 This is an end-to-end solution for finance, sales, services, and operations for small and mid-sized companies. 
