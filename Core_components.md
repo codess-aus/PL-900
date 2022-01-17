@@ -255,7 +255,13 @@ You can use a custom AI model in Power Automate. In AI Builder, select use model
 
 You can test a custom AI model before publishing. In AI Builder, select Model and click Quick test to check your model's accuracy. AI models can enhance your flow capabilities.
 
+You should use the object detection model to identify a logo in social media images. You can use brand logos in your model domain to identify a logo in social media images. 
 
+You should use the sentiment analysis model to evaluate customer feedback. You can use the sentiment analysis model to detect positive or negative sentiment in customer feedback. You can embed the Al model into a flow 
+
+You should use the form processing model to process your vendor invoices. You can use this model to automate form processing. It detects fields in pur invoices and lets you store them. You can embed Al models into Power Apps. 
+
+The text recognition model is used to extract text from documents and images. 
 
 
 
