@@ -89,9 +89,15 @@ You can only add existing compn)nents to an unmanaged solution. You cannot add o
 To allow other app makers to make changes to your components including your app, you must export the solution as an unmanaged solution. 
 The solution can then be imported into their environment and the compnonents can be changed. 
 
+You have a new Power Platform environment You create an app and several other convnents, including tables, in the Power Apps Maker portal outside of a solution. To transport the components to another environment you must add the components to an unmanaged solution and export the solution. You can export an unmanaged solution to transport your components to another environment. 
+
 ### Managed Solutions
 To prevent other app makers from making changes to your components including your app, you must export the solution as a managed solution. 
 When a managed solution is imported, the solution cannot be edited.
+
+You cannot add components to a managed solution or edit compnonents in a managed solution. You cannot export a managed solution.
+
+
 
 A **calculated column** is only re-calculated when the form is saved, not when a column is changed. Thus, the commission calculation will not be displayed immediately but when 
 the form is auto-saved up to 30 seconds later.
@@ -99,6 +105,11 @@ the form is auto-saved up to 30 seconds later.
 A **Power automate flow** will only run when the form is saved, not when a column is changed. Also, Power Automate flows execute asynchronously, so the user will need to refresh the form to see the commission calculation. 
 
 A **rollup column** aggregates values from the child rows in a relationship. Rollup columns are only re-calculated every hour. 
+
+You cannot export the **Default Solution**. The Default Solution contains all compnonents in an environment. The export option is disabled when you select the Default 
+Solution. 
+
+You should not export the **Common Data Service Default Solution**. All metadata components, such as tables, created outside of a solution are automatically added to the Common Data Service Default Solution. However, apps are not added automatically to this solution. The Common Data Service Default Solution will not contain all the components that need to be exported. 
 
 
 
