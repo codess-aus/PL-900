@@ -33,6 +33,11 @@ You can control access to data at organizational level when table ownership is s
 You can create a business rule to apply business logic and validation rules. 
 You cannot change the ownership of a custom table. Once the custom table is created and ownership is set, you are not allowed to change the ownership. You need to create a new custom table in order to change table ownership. 
 
+You should use a **table** to store all the return requests and their details as rows. You can use a table to model the return request details in columns and create relationships with other tables in Dataverse. Each return request is saved as a row in the table. 
+You should use a **column** to generate a sequential numeric identifier for the return request. You can use a column with the AutoNumber type to generate a sequential nurneric identifier with an optional prefix like the current date. 
+You should use a **relationship** to relate the return request with a sales order. You can use a One-to-many relationship to relate the return request with the corresponding row in the sales order table. 
+
+
 
 ### Dynamics 365 Business Central. 
 
