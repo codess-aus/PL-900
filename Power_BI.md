@@ -1,5 +1,9 @@
 ## Demonstrate the capabilities of Power BI (15-20%)
 
+Power Bl can connect to and auto refresh from Microsoft Dataverse. 
+Power Bl can connect to, auto refresh, and use DirectQuery with Azure SQL Data Warehouse. 
+Power Bl can connect to Dynamics 365 Customer Insights and bring in its data such as customer details, roles, locations, and key performance indicators (KPls). 
+Power Bl can create visualizations from Microsoft Dataverse audit logs, but these visualizations will be limited because the audit data available does not include the field or value changes, only whether a record has been changed.
 
 ## Power BI Desktop 
 Use Power BI Desktop to create reports and connect them to SharePoint lists. 
@@ -10,9 +14,13 @@ You should use Power Desktop to shape and combine data. Power BI Desktop allows 
 
 Uuse either Power BI Desktop or Power BI Service to configure a cross-report drillthrough report. You can use the cross-report drillthrough feature to connect related reports. 
 
+You can connect with SQL Server, Hadoop File (HDFS) and Excel data sources from Power 81 Desktop. 
+Power Bl Desktop supports all data sources available in Power Some data sources require a prerequisite installed on your machine, for example, the SQL Server data source requires .NET Framework. 
 
 
 ## Power BI Service 
+
+You can connect with SQL Server and Excel data sources from Power BI Service. Almost all data sources available for Power BI can be used in Power BI Service, except the HDFS data source. Some data sources may require a data gateway to connect with on-premises data.
 
 Use Power BI Service to create a new workspace to share reports and dashboards within your organization or with specific people in a cloud environment. 
 
@@ -50,11 +58,16 @@ You cannot apply filters to a dashboard.
 
 Dashboards are created in the Power BI Service, not in Power BI Desktop. In Power BI Service, you add visualizations from your reports to dashboards.
 
+You should use a dashboard to distribute a single page containing content from multiple datasets. A dashboard is a single page that can contain visualizations from different reports and different datasets. 
+Dashboards are shared to distribute them to other users so that they can consume the content. 
+
 ## Report
 You should recommend a report to analyze sales charts filtered by region. A report is composed of one or more visuals that represent different findings and insights from a single dataset. A report can have multiple tabs to better explore the information on a dataset. 
 You can apply filters, slices, and highlights to discover specific data or patterns, like filtering sales for a specific region. 
 
 The Report view contains one or more pages where you add and edit your visualizations. 
+
+You should use a report to distribute multiple pages containing content from a single dataset. A report can have multiple pages containing visualizations from a single dataset. Reports are shared to distribute them to other users so that they can consume the content 
 
 You can export data from a visualization in the report. You can export the summarized data used to build the visualization and the underlying data behind the visualization as CSV or Excel files. 
 
@@ -75,6 +88,9 @@ The Data view contains tables and columns in the right hand pane, with the data 
 ## Workspace
 Workspaces are containers for data models, reports, and dashboards in the Power BI service. When you publish from Power BI Desktop to Power BI service, you select a workspace to hold your analytics.
 
+You should use a workspace to collaborate with others to create and edit content. A workspace is a collection of datasets, reports, and dashboards. 
+
+
 ## Button or Bookmark
 Use Buttons or Bookmarks to provide a menu to users so they can go directly to a specific page. 
 You can enable actions on buttons or bookmark buttons and provide a URL or snapshot bookmark of your report to directly go to that specific page. 
@@ -85,7 +101,33 @@ Use a What-if parameter to interact with visuals by providing an input value. Fo
 ## Slicer Visual
 Use a Slicer Visual to provide users the ability to select specific products from a report and see analysis based on those products or categories. 
 
+You can use slicers to display common filters on the report canvas for easier access. You can use the Location field in a slicer after you create the calculated column. 
+
+
+## Calcualted Column
+Create a calculated column to concatenate the City and State fields into a single field named Location. You can use a calculated column to concatenate text values from different columns and create a single field that could be used in your visualizations as rows, axis, and legends. 
+
 ## Measure
 Measures are used for aggregated calculations such as Key Performance Indicators (KPls)
 
+Measures are automatically created by Power BI if it detects a field as numeric. You can use measures with aggregate functions, like sum, average, and median to build your 
+visualizations. Measures created automatically by Power BI are identified by the symbol on the left side of the fields list and are generally used in your visualizations as a value. 
 
+## Custom Measure
+Custom measures can be used to aggregate data like but custom measures are created by you and are identified by a calculator icon in the fields list. 
+
+## Dataset
+You should not use a dataset. You can share datasets with other workspaces so that others can create visualizations using your dataset. Only the dataset will be shared not the associated reports and dashboards.
+
+A dataset is a set of data that is ready for visualization. 
+
+## Gateway
+
+A gateway allows you to connect with on-premises data sources and communicate with cloud services like Power Bl and Power Apps. 
+
+
+You should use a SharePoint folder data source to be able to connect to a SharePoint site. using a SharePoint folder data source allows you to connect to the files available in that directory. 
+
+
+## Workspace
+A workspace acts as a placeholder to share and collaborate with reports and dashboards.
