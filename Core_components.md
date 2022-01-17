@@ -17,4 +17,14 @@ the form to see the commission calculation.
 A **rollup column** aggregates values from the child rows in a relationship. Rollup columns are only re-calculated every hour. 
 
 
+You should use a **business process flow** to ensure that users input data and perform tasks in a specific order. 
+In a business process flow you can define a set of stages and steps to be followed and what information a user needs to insert in order to advance to the next process step. 
+
+You should use a **business rule** to validate data in Dataverse tables consistently between different apps. You can apply business rules to enable or hide columns, validate data, and show error messages without having to write code. A business rule can be composed of multiple conditions, involving multiple columns and tables. Business rules can be applied to the table level, ensuring that every app that uses this table complies with the rules. 
+
+You should use **environments** to separate apps that use development or production data. An environment manages and shares •pur business data, apps, and flows. Environments also serve as containers that separate apps that may have different security requirements or target audiences, like development and production environments that use different data. 
+
+**Common Data Model (CDM)** The CDM is a standard and extensible collection of schemas, including entities, attributes and relationships that represent business concepts and activities with well-defined semantics. It consists of a set of standardized, extensible data schemas published by Microsoft and partners that facilitate data interoperability.
+
+
 
