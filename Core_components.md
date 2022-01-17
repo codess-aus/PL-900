@@ -209,6 +209,12 @@ You can detect and tag your products in Instagram posts. You can use the object 
 
 You can predict if a customer Will buy a product based on historical data. You can use the prediction model to analyze patterns in your historical data and predict an outcome for new data. This model can address business questions with available options, like yes or no, go or no go, pass or fail and true or false. 
 
+You can use a business card reader pre-built model to automate the attendance process. A business card reader allows pu to extract the key information from the business card image. 
+
+You can use sentiment analysis to detect spam or negative posts on your company's Twitter page. Sentiment analysis evaluates text input and gives scores to a text selection. 
+
+
+
 
 
 
