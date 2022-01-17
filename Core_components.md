@@ -213,6 +213,7 @@ You can use a business card reader pre-built model to automate the attendance pr
 
 You can use sentiment analysis to detect spam or negative posts on your company's Twitter page. Sentiment analysis evaluates text input and gives scores to a text selection. 
 
+You should train and use an Object Detection model in your app with Al Builder. You can use the object detection model to recognize your products in pictures after you train your model with real images of your products. You can use Al Builder to add intelligence to your app even if you have no development or data science skills.
 
 
 
