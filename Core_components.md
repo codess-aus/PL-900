@@ -8,3 +8,5 @@ Business rules defined for a table apply to both canvas apps and model-driven ap
 In a model-driven app to be used on mobile devices in a retail store. If you need to calculate the commission on a sale and the commission amount must be visible and 
 updated immediately when the sales amount is entered. Then you can create a business rule to perform the calculation. 
 
+A **calculated column** is only re-calculated when the form is saved, not when a column is changed. Thus, the commission calculation will not be displayed immediately but when 
+the form is auto-saved up to 30 seconds later.
