@@ -5,6 +5,10 @@ Power Bl can connect to, auto refresh, and use DirectQuery with Azure SQL Data W
 Power Bl can connect to Dynamics 365 Customer Insights and bring in its data such as customer details, roles, locations, and key performance indicators (KPls). 
 Power Bl can create visualizations from Microsoft Dataverse audit logs, but these visualizations will be limited because the audit data available does not include the field or value changes, only whether a record has been changed.
 
+In Power BI, you can connect to many different types of data sources, then shape the data to meet your needs into a dataset. 
+A Power Bl report has one or more pages of visualizations. All of the visualizations in a report must come from a single dataset 
+Power Bl can extract tabular data directly from a website URL and other public data sources and combine this data with your own data.
+
 ## Power BI Desktop 
 Use Power BI Desktop to create reports and connect them to SharePoint lists. 
 You should use Power BI Desktop to perform tasks like creating reports, calculating columns and configuring security settings. 
@@ -37,10 +41,14 @@ Use Power AI Service to create a dashboard. A dashboard is a visualization of on
 ## Power Query:
 You should use Power Query to connect to and transform data. Although you can use many components in Power BI to connect and retrieve data, all the tools use Power Query for data cleansing and data transformation. 
 
+Power Query allows you to connect to data sources and perform complex transformations
+
 ## Power BI Mobile App
 Power BI Mobile App is used to access your report hosted in Power BI Service. 
 
 You should not use Power BI Mobile. Power BI Mobile is used to display Power 81 reports and dashboards. 
+
+You could also publish the report as an app to your co-workers. You can create a Power app to bundle dashboards and regn)rts and publish these as apps to your whole organization or to specific people or groups, for example to your co-workers. You can also publish the app to a broader audience, like your entire company.
 
 ## Dashboard. 
 Dashboard is a collection of visuals from a Power BI report hosted in Power AI Service. 
@@ -90,6 +98,7 @@ Workspaces are containers for data models, reports, and dashboards in the Power 
 
 You should use a workspace to collaborate with others to create and edit content. A workspace is a collection of datasets, reports, and dashboards. 
 
+You should create a new Power BI workspace and invite your co-workers. Workspaces are designed to collaborate with your co-workers to create and share dashboards, reports, and paginated reports. You can assign workspace roles to individuals or user groups and grant access to the report. 
 
 ## Button or Bookmark
 Use Buttons or Bookmarks to provide a menu to users so they can go directly to a specific page. 
@@ -104,8 +113,25 @@ Use a Slicer Visual to provide users the ability to select specific products fro
 You can use slicers to display common filters on the report canvas for easier access. You can use the Location field in a slicer after you create the calculated column. 
 
 
-## Calcualted Column
+## Calculated Column
 Create a calculated column to concatenate the City and State fields into a single field named Location. You can use a calculated column to concatenate text values from different columns and create a single field that could be used in your visualizations as rows, axis, and legends. 
+Calculated columns are new columns created using DAX language from data already in the data model. 
+You should use a calculated column to combine the city and state columns in a table into a new column. 
+The calculated column would concatenate the two columns and create a new combined column. 
+
+## Column quality 
+Column quality allows you to analyze valid, error, or empty values for all columns in a single view. 
+
+## Column distribution  
+Column distribution allows you to show distinct values for all columns in a single view 
+
+## Column profile. 
+Column profile allows you to analyze value distribution along with empty or error values for the selected column. 
+Use Column profile option to check empty, error, or distinct values. Column profile allows you to analyze value distribution along with empty, error, or distinct values for a selected column. 
+
+## Custom column 
+The custom column option allows you to create a new column from Power Query editor either using an example or by providing a column formula. 
+
 
 ## Measure
 Measures are used for aggregated calculations such as Key Performance Indicators (KPls)
@@ -113,11 +139,24 @@ Measures are used for aggregated calculations such as Key Performance Indicators
 Measures are automatically created by Power BI if it detects a field as numeric. You can use measures with aggregate functions, like sum, average, and median to build your 
 visualizations. Measures created automatically by Power BI are identified by the symbol on the left side of the fields list and are generally used in your visualizations as a value. 
 
+Measures are aggregations of KPls created from the data in your model. You Will use measures in your visualizations and can use the date table. 
+
+* You should use a measure to calculate your company's aggregated sales. You can define a measure using a DAX expression. 
+* You should use a measure to calculate your company's yearly increase in revenue. You can use a built-in Quick measure to show year-over-year change, or you can create a measure by writing DAX to calculate the year-over-year change. 
+
 ## Custom Measure
 Custom measures can be used to aggregate data like but custom measures are created by you and are identified by a calculator icon in the fields list. 
 
 ## Dataset
 You should not use a dataset. You can share datasets with other workspaces so that others can create visualizations using your dataset. Only the dataset will be shared not the associated reports and dashboards.
+
+Datasets in a classic workspace can only be used in that workspace, and dashboards and reports in this workspace could not use datasets in other workspaces. This 
+dataset cannot be shared outside the Main workspace. 
+
+You can use datasets in the same workspace with a classic or the new workspace experience. 
+
+In the new workspace experience you can share datasets across multiple workspaces. Datasets can also be certified in the endorsement settings. Certified datasets can then 
+be used in a workspace that is also using the new experience. 
 
 A dataset is a set of data that is ready for visualization. 
 
@@ -131,3 +170,17 @@ You should use a SharePoint folder data source to be able to connect to a ShareP
 
 ## Workspace
 A workspace acts as a placeholder to share and collaborate with reports and dashboards.
+
+## Date Table. 
+Although Power BI automatically identifies columns that represent dates, and then creates date hierarchies, it is better to specify which date field you want to use as a date table, or even create a new table using the Calendar DAX function. You should create a relationship from the date table to the Order table. 
+
+## Filter
+Filters are used to interact with reports and visualizations in Power BI
+
+You should use the (free) Power BI license to create Power BI Desktop reports. Power BI Desktop allows users to create reports without signing into a Power BI account. 
+
+You should use the Power BI (Pro) license to publish and share reports through Power BI Service. Users need to have a Power BI (Pro) license in order to publish and share Power BI content. 
+
+You should use the Power BI (Embedded) license to integrate your Power BI reports and dashboard into your company website. Power BI Embedded is a subscription offered through Azure. 
+
+The Power BI (Premium) license allows you to run your reports and dashboards in a dedicated resource capacity. 
