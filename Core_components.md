@@ -10,3 +10,11 @@ updated immediately when the sales amount is entered. Then you can create a busi
 
 A **calculated column** is only re-calculated when the form is saved, not when a column is changed. Thus, the commission calculation will not be displayed immediately but when 
 the form is auto-saved up to 30 seconds later.
+
+A **Power automate flow** will only run when the form is saved, not when a column is changed. Also, Power Automate flows execute asynchronously, so the user will need to refresh 
+the form to see the commission calculation. 
+
+A **rollup column** aggregates values from the child rows in a relationship. Rollup columns are only re-calculated every hour. 
+
+
+
