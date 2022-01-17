@@ -5,7 +5,7 @@ Use Power BI Desktop to create reports and connect them to SharePoint lists.
 
 ## Power BI Service 
 
-Use [Power BI Service](app_powerbi.com) to publish the report and share it within your organization or with specific people. 
+Use [Power BI Service](https://app_powerbi.com) to publish the report and share it within your organization or with specific people. 
 With Power BI Service you can create your reports in the cloud environment. 
 
 ## Power BI Mobile App
