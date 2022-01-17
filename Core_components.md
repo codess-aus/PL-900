@@ -215,7 +215,13 @@ You can use sentiment analysis to detect spam or negative posts on your company'
 
 You should train and use an Object Detection model in your app with Al Builder. You can use the object detection model to recognize your products in pictures after you train your model with real images of your products. You can use Al Builder to add intelligence to your app even if you have no development or data science skills.
 
+**Language detection model** This model identifies the predominant language in text documents like support tickets. After identifying the language, this model allows you to direct the ticket to a support operator who speaks that particular language. 
 
+**Key phrase extraction model**. This model identifies and extracts key terms from a text. For example, if you input the text "The food was delicious and there were wonderful staff," the model could return 'food" and "wonderful staff". 
+
+**Text classification model**. This model works similarly to the key phrase extraction model However, you need to train this model before you use it.
+
+**Text recognition model**. This model is used to extract words from images or print documents. 
 
 
 
