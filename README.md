@@ -46,8 +46,9 @@ Describe AI Builder
 * describe models including business card reader, detection model, form processing model, and prediction model
 * describe how the Power Apps and Power Automate can consume AI Builder data
 
-Demonstrate the capabilities of Power BI (15-20%)
-Identify common Power BI components
+[Demonstrate the capabilities of Power BI (15-20%)](https://github.com/codess-aus/PL-900/blob/main/Power_BI.md)
+
+* Identify common Power BI components
 * identify and describe uses for visualization controls including pie, bar, donut, and scatter plots and KPIs
 * describe types of filters
 * describe the Power BI Desktop Reports, Data, and Model tabs
@@ -70,7 +71,7 @@ Build a basic dashboard using Power BI
 * publish and share reports and dashboards
 
 Demonstrate the capabilities of Power Apps (15-20%)
-Identify common Power Apps components
+* Identify common Power Apps components
 * describe differences between canvas apps and model-driven apps
 * describe portal apps
 * identify and describe types of reusable components including canvas component libraries and Power Apps Component Framework (PCF) components
@@ -96,7 +97,7 @@ Build a basic model-driven app
 * publish and share an app
 
 Demonstrate the capabilities of Power Automate (15-20%)
-Identify common Power Automate components
+* Identify common Power Automate components
 * identify flow types
 * describe use cases for flows and available flow templates
 * describe how Power Automate uses connectors
@@ -112,7 +113,7 @@ Build a basic flow
 * modify a flow
 
 Demonstrate the capabilities of Power Virtual Agents (10-15%)
-Describe Power Virtual Agents capabilities
+* Describe Power Virtual Agents capabilities
 * describe use cases for Power Virtual Agents
 * describe where you can publish chatbots
 * describe topics, entities and actions
