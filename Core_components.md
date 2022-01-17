@@ -18,6 +18,26 @@ You do not need to configure at least one Microsoft Dataverse database in each e
 You can create an environment in different regions on the same tenant to meet compliance requirements. When you create an environment, you need to select a region to provision this environment. All internal Power Platform resources are provisioned in this region, respecting the region's boundary requirements. 
 You can configure different roles for a user in different environments. You can assign the Environment Admin or the Environment Maker role for a user in each environment. For example, you can create two environments named Test and Production. In the Test environment you can assign the Environment Admin role for User A, and in the Production environment, you can assign the Environment Maker role for User A.
 
+A **default environment** is automatically created in each Power Platform tenant. Users are automatically added to the Maker role in the default environment. All users can create apps in the default environment. 
+
+Production, Sandbox or Trial environments: Users will need to be added to the environments of these types directly or via security groups. 
+
+The **Environment Admin** role to administer an environment without a database. When there is no database in an environment, the Environment Admin role manages the environment and can add Environment Makers. If an environment has a Microsoft Dataverse database, security roles in the Dataverse database take over environment security. 
+
+The **Environment Maker** role permits users to create apps in the environment. 
+
+The **Basic User** role gives access to data in a Dataverse database. 
+
+The **Power Platform admin** role is for creating environments. 
+
+The **CDM** consists of a set of standardized schemas that can be used to build business applications and analytics. The CDM contains entities, attributes, relationships and importantly metadata. 
+
+**Dataverse** is a database that implements the schemas in the CDM. The CDM is designed to be product agnostic. The CDM is already supported in the Dataverse, Dynamics 365, PowerApps, Power 81, and soon by Azure data services. 
+
+The **Open Data Initiative**. The CDM is evolving as part of the Open Data Initiative, a jointly-developed vision by Microsoft, Adobe, and SAP. 
+
+**Standard Entities** are the entities in a Dataverse database that have been created using the schemas in the CDM. 
+
 
 ### Common Data Model
 
