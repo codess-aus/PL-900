@@ -87,6 +87,15 @@ You can create business rules on tables to validate data and show error messages
 
 You can create a business rule on a table to set or clear specific column values for both canvas and model-driven apps. 
 
+Canvas apps can use the object detection model. You can use Al models in Canvas Apps and use the camera to capture an image and then scan the image to identify objects. 
+
+### Power Automate flows 
+Power Automate flows can use the form processing model. You can use the Predict action in the Microsoft Dataverse connectors to extract data from documents. 
+
+### Power Portal apps 
+Power Portal apps cannot use Al builder. There is no direct support for using Al compn)nents in a Portal app. You can, however, use Power Automate to process data and documents captured by the portal.
+
+
 ### Unmanaged Solutions
 You can only add existing compn)nents to an unmanaged solution. You cannot add or remove compnonents from a managed solution. 
 
@@ -159,7 +168,7 @@ You should not use a premium connector. Connectors can be standard, premium or c
 You do not need to open inbound firewall ports to access an on-premises SQL server. Installing the on- premises data gateway enables on-premises databases to trigger flows and Power Apps to read and write data.
 
 
-Example Power Platform solution: 
+### Example Power Platform solution: 
 * The company needs to scan invoice data in Power Platform apps. 
 * You need to use Al guilder to implement the solution. 
 Which four actions should you perform in sequence? 
