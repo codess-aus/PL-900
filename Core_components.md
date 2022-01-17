@@ -133,6 +133,12 @@ You should use a custom connector to connect to a publicly available APL Custom 
 
 You do not need to create a custom connector to access an external data source. There are over 300 connectors that can be used to connect to data sources from Microsoft Offce 365, Dynamics 365, Azure, and third-party services. You only need to create a custom connector if there is no prebuilt connector. 
 
+You should use a custom connector to connect to the external data source. You need to create a custom connector and provide API credentials so it can authenticate your connection if there is not one available.
+
+SharePoint connectors are used to connect with SharePoint lists. 
+
+**Logic apps** are used to automate tasks, workflows, and business processes. 
+
 You should not use the Dynamics 365 Sales Insights connector. Dynamics 365 Sales Insights empowers sellers to deliver personalized engagement for customers using Al-driven insights. You cannot use this connector to update sales orders. 
 
 You should not use a premium connector. Connectors can be standard, premium or custom. Premium and custom connectors require additional licensing. Offce 365 connectors such as SharePoint are standard connectors. 
