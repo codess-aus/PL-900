@@ -159,6 +159,25 @@ You should not use a premium connector. Connectors can be standard, premium or c
 You do not need to open inbound firewall ports to access an on-premises SQL server. Installing the on- premises data gateway enables on-premises databases to trigger flows and Power Apps to read and write data.
 
 
+You are building Power Platform solutions for your company. 
+The company needs to scan invoice data in Power Platform apps. 
+You need to use Al guilder to implement the solution. 
+Which four actions should you perform in sequence? 
+
+1. Build a form processing model in Al guilder. 
+2. Train the model with invoice samples. 
+3. Publish the model. 
+4. use the model in Power Apps. 
+
+You should build a form processing model in Al Builder. You can use different Al model types in Al guilder depending on your business needs. In this case, you should build a form processing Al model to extract information from the scanned invoices. 
+
+You should train the model with invoice samples. The train step prepares a model that extracts the desired information. You should provide five invoices to train your model, selecting the fields that you need to extract the data from. 
+
+You should then publish the model. After you train the model, you have to publish it to make it available for Power Apps or Power Automate. 
+
+Finally, pu should use the model in Power Apps. You can use the form processor control component to scan the invoice and read the data that you need to extract. 
+
+
 
 
 
