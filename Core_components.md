@@ -14,6 +14,11 @@ You should use a **business rule** to validate data in Dataverse tables consiste
 
 You should use **environments** to separate apps that use development or production data. An environment manages and shares •pur business data, apps, and flows. Environments also serve as containers that separate apps that may have different security requirements or target audiences, like development and production environments that use different data. 
 
+You do not need to configure at least one Microsoft Dataverse database in each environment. You can create an environment without a Dataverse database, and create it in the future if necessary. 
+You can create an environment in different regions on the same tenant to meet compliance requirements. When you create an environment, you need to select a region to provision this environment. All internal Power Platform resources are provisioned in this region, respecting the region's boundary requirements. 
+You can configure different roles for a user in different environments. You can assign the Environment Admin or the Environment Maker role for a user in each environment. For example, you can create two environments named Test and Production. In the Test environment you can assign the Environment Admin role for User A, and in the Production environment, you can assign the Environment Maker role for User A.
+
+
 ### Common Data Model
 
 **Common Data Model (CDM)** The CDM is a standard and extensible collection of schemas, including entities, attributes and relationships that represent business concepts and activities with well-defined semantics. It consists of a set of standardized, extensible data schemas published by Microsoft and partners that facilitate data interoperability.
