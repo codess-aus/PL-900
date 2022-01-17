@@ -249,6 +249,13 @@ There are four AI model types in AI Builder:
 
 You should choose Power Automate for using AI builder. Both Power Apps and Power Automate can use AI models built by Al Builder. 
 
+You can use a custom Al model in Power Apps. In AI Builder, select Use model to embed it in a Power Apps canvas app. AI models can enhance your app capabilities. 
+
+You can use a custom AI model in Power Automate. In AI Builder, select use model to embed it in your flow or create a new flow. AI models can enhance your flow capabilities. 
+
+You can test a custom AI model before publishing. In AI Builder, select Model and click Quick test to check your model's accuracy. AI models can enhance your flow capabilities.
+
+
 
 
 
