@@ -186,9 +186,22 @@ You should then publish the model. After you train the model, you have to publis
 
 Finally, pu should use the model in Power Apps. You can use the form processor control component to scan the invoice and read the data that you need to extract. 
 
+### Example AI Builder Sentiment Analysis
+
+The company uses the sentiment analysis prebuilt model in Al guilder to monitor customer feedback for specific products. 
+When negative feedback is received, the company wants to perform engineering reviews for the product 
+You want to implement the solution to monitor negative feedback. 
+What are two possible ways to achieve this goal? 
+
+* You should build a Power Automate flow You can create a scheduled workflow to verify the customer feedback with the model and notify the engineering team about the negative feedback. 
+
+* You could also create a Power Apps canvas app. You can create a canvas app for the engineering team, list the customer feedback, and use the model to classify negative feedback. 
+
+
+
 ### AI Builder
 
-You can perform sentiment analysis for tweets about your brand. You can use the prebuilt Sentiment analysis model of Al guilder to determine the sentiment for a tweet. 
+You can perform sentiment analysis for tweets about your brand. You can use the prebuilt Sentiment analysis model of Al builder to determine the sentiment for a tweet. 
 You can categorize tweets as positive, negative, neutral, or mixed and take actions based on that analysis. 
 This model can be implemented in a Power Automate flow to automate the tweet analysis. 
 
