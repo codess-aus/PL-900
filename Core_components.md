@@ -225,13 +225,30 @@ You should train and use an Object Detection model in your app with Al Builder. 
 
 Al Builder is a Power Platform component that enables you to add artificial intelligence (Al) to your solutions building custom Al models or prebuilt Al models. You can integrate Al Builder directly into Power Apps and Power Automate. 
 
-You can integrate Al builder directly into Power Apps and Power Automate. You can create Power Automate flows to leverage Al to extract information from printed forms and to create canvas apps that detect specific objects in a picture, like your brand or products. 
+You can integrate AI builder directly into Power Apps and Power Automate. You can create Power Automate flows to leverage Al to extract information from printed forms and to create canvas apps that detect specific objects in a picture, like your brand or products. 
 
-You cannot integrate Al Builder directly into Power BI. You can use Al Insights with Power BI Desktop to use pre-trained machine learning models to enhance your dashboard analysis. However, this feature only supports Azure Cognitive Services and Azure Machine Learning models. You cannot use Al Builder models. 
+You cannot integrate AI Builder directly into Power BI. You can use Al Insights with Power BI Desktop to use pre-trained machine learning models to enhance your dashboard analysis. However, this feature only supports Azure Cognitive Services and Azure Machine Learning models. You cannot use Al Builder models. 
 
-You cannot integrate Al Builder directly into Dynamics 365 Customer Service Insights. This service provides you with actionable insights into critical performance metrics and emerging trends from your existing Dynamics 365 customer service data. You do not need to use Al guilder models with Dynamics 365 Customer Service Insights. 
+You cannot integrate AI Builder directly into Dynamics 365 Customer Service Insights. This service provides you with actionable insights into critical performance metrics and emerging trends from your existing Dynamics 365 customer service data. You do not need to use Al guilder models with Dynamics 365 Customer Service Insights. 
 
-You cannot integrate Al Builder directly into Power Virtual Agents. You can use Power Virtual Agents to create chat bots in a graphical interface, creating a guided user experience without the need to code. 
+You cannot integrate AI Builder directly into Power Virtual Agents. You can use Power Virtual Agents to create chat bots in a graphical interface, creating a guided user experience without the need to code. 
+
+There are five prebuilt AI models: 
+* Business card reader, 
+* Key phrase extraction, 
+* Language detection, 
+* Text recognition and 
+* Sentiment analysis. 
+These models help you to add intelligence to apps and flows without having to gather data and then build, train, and publish your own models. 
+
+There are four AI model types in AI Builder: 
+* Prediction, 
+* Form processing, 
+* Object detection and 
+* Text classification.
+
+You should choose Power Automate for using AI builder. Both Power Apps and Power Automate can use AI models built by Al Builder. 
+
 
 
 
