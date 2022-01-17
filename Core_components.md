@@ -18,6 +18,22 @@ You should use **environments** to separate apps that use development or product
 
 **Common Data Model (CDM)** The CDM is a standard and extensible collection of schemas, including entities, attributes and relationships that represent business concepts and activities with well-defined semantics. It consists of a set of standardized, extensible data schemas published by Microsoft and partners that facilitate data interoperability.
 
+### Microsoft Dataverse
+
+Dataverse is used to store and manage data used by business applications. 
+The data is stored within a set of entities. 
+Dataverse uses the CDM to provide a set of standardized entities used by your applications. 
+
+### Dynamics 365 Business Central. 
+
+This is an end-to-end solution for finance, sales, services, and operations for small and mid-sized companies. 
+
+### Business process flow 
+This is a type of Power Automate flow that configures a set of steps to be followed by users, resulting in a standard business process. 
+For example, you might need a business process flow to handle customer service requests similarly. 
+You should use a **business process flow** to ensure that users input data and perform tasks in a specific order. 
+In a business process flow you can define a set of stages and steps to be followed and what information a user needs to insert in order to advance to the next process step. 
+
 ### Model Driven Apps
 
 You can validate data and show error messages, set column values, enable or disable columns, and create business recommendations when pu are developing a model-driven app. You can use all actions available in business rules when you are developing a model-driven app. 
@@ -36,8 +52,7 @@ A **Power automate flow** will only run when the form is saved, not when a colum
 A **rollup column** aggregates values from the child rows in a relationship. Rollup columns are only re-calculated every hour. 
 
 
-You should use a **business process flow** to ensure that users input data and perform tasks in a specific order. 
-In a business process flow you can define a set of stages and steps to be followed and what information a user needs to insert in order to advance to the next process step. 
+
 
 
 
