@@ -223,7 +223,15 @@ You should train and use an Object Detection model in your app with Al Builder. 
 
 **Text recognition model**. This model is used to extract words from images or print documents. 
 
+Al Builder is a Power Platform component that enables you to add artificial intelligence (Al) to your solutions building custom Al models or prebuilt Al models. You can integrate Al Builder directly into Power Apps and Power Automate. 
 
+You can integrate Al builder directly into Power Apps and Power Automate. You can create Power Automate flows to leverage Al to extract information from printed forms and to create canvas apps that detect specific objects in a picture, like your brand or products. 
+
+You cannot integrate Al Builder directly into Power BI. You can use Al Insights with Power BI Desktop to use pre-trained machine learning models to enhance your dashboard analysis. However, this feature only supports Azure Cognitive Services and Azure Machine Learning models. You cannot use Al Builder models. 
+
+You cannot integrate Al Builder directly into Dynamics 365 Customer Service Insights. This service provides you with actionable insights into critical performance metrics and emerging trends from your existing Dynamics 365 customer service data. You do not need to use Al guilder models with Dynamics 365 Customer Service Insights. 
+
+You cannot integrate Al Builder directly into Power Virtual Agents. You can use Power Virtual Agents to create chat bots in a graphical interface, creating a guided user experience without the need to code. 
 
 
 
