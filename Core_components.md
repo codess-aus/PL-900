@@ -100,8 +100,12 @@ You cannot add components to a managed solution or edit compnonents in a managed
 ### Triggers 
 Triggers are supported by Power Automate only. You need a trigger to start a flow You can configure a time based trigger, which runs in a schedule, or an event based trigger, like receiving an email. 
 
+You should use a trigger to cause your flow to run. Triggers are either event-based, for example a data change, time-based, for example recurrence every hour, or instant, for example an instant flow. The trigger causes the flow to start. Each connector defines the triggers it supports. When creating a flow, the first thing you define is the connector and its trigger. 
+
 ### Actions
 Actions are supported by Power Apps and Power Automate. An action can be initiated by a trigger or by user input. An action executes functions that interact with your data source. For example, you can start an action to send an email in your workflow, or you can initiate an action to create a purchase order by clicking on the Submit button in your app. 
+
+You should use actions to get items from your SharePoint list. Actions are operations performed on a connector. Connectors are either tabular or function-based. Each connector defines the actions it supports. With a tabular connector such a SharePoint list, there are actions that create, read, update and delete items as well as run a query to get a list of items. 
 
 
 A **calculated column** is only re-calculated when the form is saved, not when a column is changed. Thus, the commission calculation will not be displayed immediately but when 
@@ -121,10 +125,11 @@ You should use the Dynamics 365 for Fin and Ops connector to update the sales or
 
 You should use a custom connector to request freight estimation. Power Automate offers more than two hundred built-in connectors for Microsoft and non-Microsoft products and services. If the service you want to integrate does not have a built-in connector, you can create and share a custom connector. 
 
+You should use a custom connector to connect to a publicly available APL Custom connectors are created when there is no existing pre-built connector available. When defining a custom connector, you specify the triggers and actions by mapping onto the API functions. 
+
 You should not use the Dynamics 365 Sales Insights connector. Dynamics 365 Sales Insights empowers sellers to deliver personalized engagement for customers using Al-driven insights. You cannot use this connector to update sales orders. 
 
-
-
+You should not use a premium connector. Connectors can be standard, premium or custom. Premium and custom connectors require additional licensing. Offce 365 connectors such as SharePoint are standard connectors. 
 
 
 
