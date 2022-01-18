@@ -20,6 +20,12 @@ You should use canvas apps for highly customizable layouts. Canvas apps provide 
 
 **List box control**. This control displays all items from the list in the user screen. You cannot search for items with this control and the screen scroll size will expand significantly. 
 
+You should use the List Box control to show all the information from a data source. To show the selected information, you need to edit the properties. 
+
+A **Data Table control** shows information in a matrix format like rows and columns. 
+
+You should use the **Add picture control** to allow taking full resolution photos and update them to a data source.
+
 **Drop down control**. This control can conserve the screen scroll size, displaying only the selected item. However, you cannot search for items with this control and all data 
 sources are loaded at once, resulting in a potential low performance. 
 
@@ -27,7 +33,10 @@ sources are loaded at once, resulting in a potential low performance.
 
 **Form control** to create, view and edit records. If you add a display form control, the user can display the fields for a record. If you add an edit form control, the user can edit those fields, create a record, and save those changes to a data source. 
 
+You should use the Edit form control to display, add, and update records. The edit form control can be used to edit the selected record or create a new record or for display purposes as well. 
+
 **Gallery control** to display a list of records. A gallery control can filter, sort, search, and scroll through a set of records from a data source. 
+You should use the Gallery control to show the image of an employee, their name, and department information. 
 
 **Screen control**: This is a container for other controls and can have an image in the background. 
 
