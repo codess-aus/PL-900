@@ -120,6 +120,9 @@ You can use a data source to access external data stored in cloud services, like
 ## AppSource: 
 You can use AppSource to distribute and publish apps for Power Platform and Dynamics 365 to a broader audience.
 
+## Starter portal template: The starter portal template is the only portal template that is available with a Microsoft Dataverse environment when you do not have any Dynamics 365 apps installed in your environment. The starter portal template is used when you choose the Portal from blank window 
+
+## Customer self-service, employee self-service, or partner portal template: These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
 
 ## Dashboard. 
 
