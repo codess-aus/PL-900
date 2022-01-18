@@ -10,6 +10,16 @@ You should use a Power Apps canvas app to create a customized layout app for you
 
 You should use canvas apps for highly customizable layouts. Canvas apps provide full control over user interface and how screens can interact with each other. 
 
+**Combo box control** This control allows you to display a list and search for items. The search is performed in the server so performance is not affected by very large data sources. 
+
+**List box control**. This control displays all items from the list in the user screen. You cannot search for items with this control and the screen scroll size will expand significantly. 
+
+**Drop down control**. This control can conserve the screen scroll size, displaying only the selected item. However, you cannot search for items with this control and all data 
+sources are loaded at once, resulting in a potential low performance. 
+
+**Radio control**. This control is best used with only a few items. You cannot search for items with this control and the screen scroll size Will expand significantly if you display more than two hundred items. 
+
+
 
 ## Model-driven app 
 Complex business process apps with simple user interfaces. Model-driven apps can automatically generate the application layout for your business data and processes stored 
