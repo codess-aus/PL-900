@@ -20,16 +20,24 @@ You should use canvas apps for highly customizable layouts. Canvas apps provide 
 
 **List box control**. This control displays all items from the list in the user screen. You cannot search for items with this control and the screen scroll size will expand significantly. 
 
+You should use a list box control to allow the users to choose multiple predefined categories. This control displays a list of categories in which the user can select one or multiple items. 
+
 You should use the List Box control to show all the information from a data source. To show the selected information, you need to edit the properties. 
 
 A **Data Table control** shows information in a matrix format like rows and columns. 
 
 You should use the **Add picture control** to allow taking full resolution photos and update them to a data source.
 
+You should use an add picture control to upload a product picture from a mobile device. This control allows users to take pictures from their device or upload image files to update the product data source. 
+
 **Drop down control**. This control can conserve the screen scroll size, displaying only the selected item. However, you cannot search for items with this control and all data 
 sources are loaded at once, resulting in a potential low performance. 
 
+These controls can be used to select a single item from a list You should allow the users to choose multiple predefined categories. 
+
 **Radio control**. This control is best used with only a few items. You cannot search for items with this control and the screen scroll size Will expand significantly if you display more than two hundred items. 
+
+These controls can be used to select a single item from a list You should allow the users to choose multiple predefined categories. 
 
 **Form control** to create, view and edit records. If you add a display form control, the user can display the fields for a record. If you add an edit form control, the user can edit those fields, create a record, and save those changes to a data source. 
 
@@ -37,6 +45,10 @@ You should use the Edit form control to display, add, and update records. The ed
 
 **Gallery control** to display a list of records. A gallery control can filter, sort, search, and scroll through a set of records from a data source. 
 You should use the Gallery control to show the image of an employee, their name, and department information. 
+
+You should use a gallery control to show a list of manufactured products. This control type shows multiple records from a data source, like a product list. 
+
+**Image control**: This control displays an image in the app. It does not upload a product picture. 
 
 **Screen control**: This is a container for other controls and can have an image in the background. 
 
