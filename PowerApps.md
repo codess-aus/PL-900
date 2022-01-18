@@ -122,7 +122,29 @@ You can use AppSource to distribute and publish apps for Power Platform and Dyna
 
 ## Starter portal template: The starter portal template is the only portal template that is available with a Microsoft Dataverse environment when you do not have any Dynamics 365 apps installed in your environment. The starter portal template is used when you choose the Portal from blank window 
 
-## Customer self-service, employee self-service, or partner portal template: These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
+## Customer self-service: These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
+Profile management can only be done through the customer or employee self-service portal.
+You should not use a customer self-service portal. Customer self-service portals allow customers to access self-service knowledge, provide feedback, and open support cases.
+
+## Employee self-service:
+These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
+Profile management can only be done through the customer or employee self-service portal.
+In this portal template, employees can perform common tasks and manage contents and knowledge for internal audiences, like internal procedures. 
+
+## Partner Portal:
+These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
+Partners can share and maintain knowledge through the partner portal. 
+The partner portal template allows partners to access a shared knowledge base. 
+Partner portals are used by company partners, like resellers, distributors, and suppliers to collaborate and have real-time access to shared activities. 
+
+
+## Community Portal:
+Customers can provide feedback and comments through the community portal. 
+Community portal templates allow customers to interact with others as well as to provide feedback, comments, and ratings. 
+Community portals allow interaction between customers and specialists using knowledge base articles, forums, and blogs. 
+
+
+
 
 ## Dashboard. 
 
