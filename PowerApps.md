@@ -8,6 +8,9 @@ canvas and use expressions to specify simple logic.
 
 You should use a Power Apps canvas app to create a customized layout app for your company to schedule internal meetings in M365. A canvas app lets you choose the layout and add key business functionalities. 
 
+You should use canvas apps for highly customizable layouts. Canvas apps provide full control over user interface and how screens can interact with each other. 
+
+
 ## Model-driven app 
 Complex business process apps with simple user interfaces. Model-driven apps can automatically generate the application layout for your business data and processes stored 
 in Microsoft Dataverse. You create a model-driven app by modelling the necessary business data your app needs to define a consistent business process. 
@@ -22,6 +25,9 @@ You should use Power BI to build reports in a model-driven app. You can embed Po
 
 You can use one or more tables as a data source per model-driven app. You can use multiple tables, columns and relationships from Dataverse while designing your model-driven app. You are not limited to a single table per app. 
 
+You should use model-driven apps for implementing complex business logic. Model-driven apps take care of the user interface part, so you only need to focus on business rules, forms, and views. 
+
+
 
 
 ## Power Automate Flow
@@ -30,6 +36,8 @@ You should not use a Power Automate flow Power Automate helps pu to automate wor
 ## Power Apps Portal
 
 You should not use a Power Apps portal. Power Apps portals are used for creating customer facing external websites.
+
+You should use Power Apps portals for a customer facing website. Power Apps portals allow you to create a customer engagement website using pre-built templates.
 
 ## Dashboard. 
 
