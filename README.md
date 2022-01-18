@@ -70,7 +70,7 @@ Build a basic dashboard using Power BI
 * design data layout and mapping
 * publish and share reports and dashboards
 
-Demonstrate the capabilities of Power Apps (15-20%)
+[Demonstrate the capabilities of Power Apps (15-20%)](https://github.com/codess-aus/PL-900/blob/main/PowerApps.md)
 * Identify common Power Apps components
 * describe differences between canvas apps and model-driven apps
 * describe portal apps
