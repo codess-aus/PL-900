@@ -16,6 +16,8 @@ You should use canvas apps for highly customizable layouts. Canvas apps provide 
 
 **Create an app from a template**: Template apps are used for specific scenarios like budgeting and employee management 
 
+## Controls:
+
 **Combo box control** This control allows you to display a list and search for items. The search is performed in the server so performance is not affected by very large data sources. 
 
 **List box control**. This control displays all items from the list in the user screen. You cannot search for items with this control and the screen scroll size will expand significantly. 
@@ -60,10 +62,10 @@ You should use a gallery control to show a list of manufactured products. This c
 
 **Shape control**. Shape controls are geometric shapes and symbols that can work in a similar manner to buttons. Shape controls allow the user to click and interact with the app. When selected, a shape will perform an action.
 
-Power Apps Component Framework **(PCF) code component** are created by developers using Typescript and HTML. PCF controls are visual, re-usable compnonents that can be used in canvas and model-driven apps. 
-
 PCF controls are developed using Typescript and HTML and require developer skills to create and maintain. PCF controls are visual, re-usable compnonents that can be used by many apps. 
 
+
+## Components
 
 **Components** are re-usable controls built using the same skills as canvas apps. The skills required to create compnonents are the same as for creating canvas apps. 
 Components are custom controls that can be re-used within an app. 
@@ -72,6 +74,20 @@ Components are re-usable controls built using the same skills as canvas apps. Ch
 required to create compnonents are the same as for creating apps. 
 
 **Component libraries** contain custom controls that can be reused across apps. Component libraries can be shared with other app makers. If a compnonent in a library is updated, the other app makers who are using the library are notified that there is an update available for the component. 
+
+Power Apps Component Framework **(PCF) code component** are created by developers using Typescript and HTML. PCF controls are visual, re-usable compnonents that can be used in canvas and model-driven apps. 
+
+**Text component** to display a simple message. This component displays a text message on your website. You can configure the text color, size and alignment. 
+
+**Breadcrumb component** to allow users to establish where they are in the webpage hierarchy. 
+This component uses the page navigation hierarchy to display the parent pages of the webpage. 
+Users can navigate through the website using these breadcrumbs. 
+
+**List component** to enumerate records in the Leads table. This component can render a list of rows stored in the Leads table without the need to write code. You can configure actions to interact with these rows, like adding a new row, viewing or editing details and deleting a row. 
+
+**Form component** to receive user input and persist it in the Leads table. This component can render model-driven forms designed in the Dataverse table. You can configure the form component to insert new rows in the table, edit a row or a read-only form. 
+
+**IFrame component** You can use this component to display an external website URL inside your webpage.
 
 **Custom connectors** are used to connect to data sources where there is no pre-built connector. Custom connectors have no impact on the look and feel of the app.
 
@@ -120,28 +136,37 @@ You can use a data source to access external data stored in cloud services, like
 ## AppSource: 
 You can use AppSource to distribute and publish apps for Power Platform and Dynamics 365 to a broader audience.
 
-## Starter portal template: The starter portal template is the only portal template that is available with a Microsoft Dataverse environment when you do not have any Dynamics 365 apps installed in your environment. The starter portal template is used when you choose the Portal from blank window 
+## Portal Templates:
 
-## Customer self-service: These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
+### Starter portal template: 
+The starter portal template is the only portal template that is available with a Microsoft Dataverse environment when you do not have any Dynamics 365 apps installed in your environment. The starter portal template is used when you choose the Portal from blank window 
+
+### Customer self-service: 
+These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
 Profile management can only be done through the customer or employee self-service portal.
 You should not use a customer self-service portal. Customer self-service portals allow customers to access self-service knowledge, provide feedback, and open support cases.
+Customer self-service portals allow customers to access self-service knowledge, provide feedback, and open support cases. You can use faceted search in this template by using filters based on the knowledge base contents. 
 
-## Employee self-service:
+### Employee self-service:
 These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
 Profile management can only be done through the customer or employee self-service portal.
 In this portal template, employees can perform common tasks and manage contents and knowledge for internal audiences, like internal procedures. 
+In this portal template, employees can perform common tasks and manage contents and knowledge for internal audiences. 
+You can use faceted search in this template by using common filters based on the knowledge base contents. 
 
-## Partner Portal:
+### Partner Portal:
 These templates are only available when a Dynamics 365 app is installed in your Microsoft Dataverse environment.
 Partners can share and maintain knowledge through the partner portal. 
 The partner portal template allows partners to access a shared knowledge base. 
 Partner portals are used by company partners, like resellers, distributors, and suppliers to collaborate and have real-time access to shared activities. 
+Partner portals are used by company partners, like resellers, distributors, and suppliers to collaborate and have real-time access to shared activities. 
+You cannot use faceted search in this template.
 
-
-## Community Portal:
+### Community Portal:
 Customers can provide feedback and comments through the community portal. 
 Community portal templates allow customers to interact with others as well as to provide feedback, comments, and ratings. 
 Community portals allow interaction between customers and specialists using knowledge base articles, forums, and blogs. 
+You cannot use faceted search in this template even if you have knowledge base articles in this portal. 
 
 
 
