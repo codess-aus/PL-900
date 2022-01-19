@@ -112,7 +112,7 @@ Build a basic flow
 * run a flow
 * modify a flow
 
-Demonstrate the capabilities of Power Virtual Agents (10-15%)
+[Demonstrate the capabilities of Power Virtual Agents (10-15%)](https://github.com/codess-aus/PL-900/blob/main/PVirtualAgents.md)
 * Describe Power Virtual Agents capabilities
 * describe use cases for Power Virtual Agents
 * describe where you can publish chatbots
