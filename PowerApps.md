@@ -16,6 +16,32 @@ You should use canvas apps for highly customizable layouts. Canvas apps provide 
 
 **Create an app from a template**: Template apps are used for specific scenarios like budgeting and employee management 
 
+
+## Model-driven app 
+Complex business process apps with simple user interfaces. Model-driven apps can automatically generate the application layout for your business data and processes stored 
+in Microsoft Dataverse. You create a model-driven app by modelling the necessary business data your app needs to define a consistent business process. 
+
+Model-driven apps let pu design critical business apps by allowing you to write complex business logic inside. 
+
+You should not use a model-driven app because you need to design an app with a customized layout. 
+
+You can embed a canvas app in a model-driven app. You can design and create custom layouts using the canvas app designer and embed these apps in a model-driven app. An embedded canvas app includes rich data integration capabilities between the contextual data from the model-driven app form with the embedded canvas app. 
+
+You should use Power BI to build reports in a model-driven app. You can embed Power BI reports to bring rich reporting and analytics to your model-driven app forms. This is an optional feature that you need to enable in your organization before using it. 
+
+You can use one or more tables as a data source per model-driven app. You can use multiple tables, columns and relationships from Dataverse while designing your model-driven app. You are not limited to a single table per app. 
+
+You should use model-driven apps for implementing complex business logic. Model-driven apps take care of the user interface part, so you only need to focus on business rules, forms, and views. 
+
+You can add forms for tables to a model-driven app. When you add a table to a model-driven app, all forms are automatically added as table assets. 
+You can add and remove forms from the app. 
+
+You can also add business process flows to a model-driven app. Business process flows are associated with a table and can be included with, or excluded from, an app. 
+
+You cannot add business rules to an app. Business rules are included automatically if the table or form they are associated with are added to the app, but you cannot add or remove business rules directly. 
+
+You cannot add Power Automate cloud flows to a model-driven app. Power Automate cloud flows are not associated with user interface compn)nents that are part of an app.
+
 ## Controls:
 
 **Combo box control** This control allows you to display a list and search for items. The search is performed in the server so performance is not affected by very large data sources. 
@@ -92,22 +118,6 @@ Users can navigate through the website using these breadcrumbs.
 **Custom connectors** are used to connect to data sources where there is no pre-built connector. Custom connectors have no impact on the look and feel of the app.
 
 
-## Model-driven app 
-Complex business process apps with simple user interfaces. Model-driven apps can automatically generate the application layout for your business data and processes stored 
-in Microsoft Dataverse. You create a model-driven app by modelling the necessary business data your app needs to define a consistent business process. 
-
-Model-driven apps let pu design critical business apps by allowing you to write complex business logic inside. 
-
-You should not use a model-driven app because you need to design an app with a customized layout. 
-
-You can embed a canvas app in a model-driven app. You can design and create custom layouts using the canvas app designer and embed these apps in a model-driven app. An embedded canvas app includes rich data integration capabilities between the contextual data from the model-driven app form with the embedded canvas app. 
-
-You should use Power BI to build reports in a model-driven app. You can embed Power BI reports to bring rich reporting and analytics to your model-driven app forms. This is an optional feature that you need to enable in your organization before using it. 
-
-You can use one or more tables as a data source per model-driven app. You can use multiple tables, columns and relationships from Dataverse while designing your model-driven app. You are not limited to a single table per app. 
-
-You should use model-driven apps for implementing complex business logic. Model-driven apps take care of the user interface part, so you only need to focus on business rules, forms, and views. 
-
 ## Dataverse 
 To create a business process flow, you need to select a Dataverse table where the process Will be based. You cannot create a business process flow in an environment without 
 a Dataverse database. 
@@ -137,6 +147,7 @@ You can use a data source to access external data stored in cloud services, like
 You can use AppSource to distribute and publish apps for Power Platform and Dynamics 365 to a broader audience.
 
 ## Portal Templates:
+**Portal template**: A portal template is used when creating the portal site, and each template has a set of pre-configured web pages and other components.
 
 ### Starter portal template: 
 The starter portal template is the only portal template that is available with a Microsoft Dataverse environment when you do not have any Dynamics 365 apps installed in your environment. The starter portal template is used when you choose the Portal from blank window 
@@ -168,8 +179,47 @@ Community portal templates allow customers to interact with others as well as to
 Community portals allow interaction between customers and specialists using knowledge base articles, forums, and blogs. 
 You cannot use faceted search in this template even if you have knowledge base articles in this portal. 
 
+**Table lists** are used in Power Apps portals to define the Dataverse data displayed in the portal as a list of rows in a table. 
+
+**Page templates** provide the means to create a consistent look and feel in the portal website. 
+Page templates are built using ASP_NET pages, master pages, cascading style sheets (CSS), user controls, and server controls. 
+
+**Content snippets** are small pieces of reusable content that can be placed within web templates. The header is a content snippet that •pu can edit and add logo and text that appears on each page in the portal. 
+
+**Web pages**: A web page is an individual page in the portal website. A web page uses a page template to define its look and feel. 
+
+**Webpage access rules** define which pages are visible to a web role. Users are associated with a web role. 
+The webpage access control rules that are defined for a web role specify the pages a user can access when the user logs in and authenticates their user
+
+**Website access permissions** define the editing permissions that a web role has in the front-end to change content such as content snippets. 
+Website access permissions are not provided to ordinary users of the portal but to users to edit content contained in the portal pages. 
+
+**Table permissions** define what access a web role has to individual Dataverse tables. Table permissions allow users to read, create, and update data rows in Dataverse from within a portal page. 
+
+**Subarea**: A subarea contains the individual navigation items in a model-driven app that select tables and dashboards. 
+You can add the table as a subarea
+
+**Area: Areas are the top-level groups in a model-driven app navigation. 
+You can only add groups to an area. 
+You cannot add a table as an area.
+
+**Assets**: Assets are the forms, views, charts, and dashboards for a table that are included in the model-driven app. 
+You cannot not add a table as an asset.
+
+**Groups**: Groups simply group navigation items under the group heading in the model-driven app navigation pane. 
+You can only add subareas to a group. 
+You cannot add the table as a group. 
+
+**Views** define how a list of rows for a table are displayed in a model-driven app. 
+A view defines the columns and their order, how the data is sorted, and includes a query to filter the data. 
+
+**Forms** contain the columns for a table to allow a row from that table to be created and edited. 
 
 
+**The sitemap** is the application-level navigation configuration for a model-driven app. 
+Dashboards and tables are added to the sitemap and appear on the left-hand side of the model-driven web app. 
+
+A **dashboard** contains components from multiple different tables. A dashboard can contain lists (views) and charts. 
 
 ## Dashboard. 
 
@@ -177,3 +227,14 @@ A dashboard is a Power BI compnonent that displays a single page with interactiv
 
 ## Power Automate Flow
 You should not use a Power Automate flow Power Automate helps pu to automate workflows like approvals or repetitive tasks. 
+
+Example:
+Your IT department manages inventory using a SharePoint list. IT workers have access to the inventory on an intranet website. 
+You need to create a mobile app through which users can initiate inventory requests. Users must also be able to manage their requests by using the SharePoint list. 
+Which two actions should you perform to create the mobile app? Each correct answer presents part of the solution.
+
+* You should create the mobile app using a Power Apps canvas app. Canvas app lets you customize the layout of your app. 
+* You should also create a Power Apps form and connect it to the SharePoint list by using a connector. By connecting your form to SharePoint list, you can add/edit entries. 
+
+You should not create a Power Apps model-driven app. Model-driven apps are used for Dataverse data. 
+You should not create a Power Apps portal. Portal apps are used for external facing websites. 
