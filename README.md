@@ -96,7 +96,7 @@ Build a basic model-driven app
 * modify forms and views
 * publish and share an app
 
-Demonstrate the capabilities of Power Automate (15-20%)
+[Demonstrate the capabilities of Power Automate (15-20%)](https://github.com/codess-aus/PL-900/blob/main/PowerAutomate.md)
 * Identify common Power Automate components
 * identify flow types
 * describe use cases for flows and available flow templates
