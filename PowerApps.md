@@ -16,10 +16,26 @@ You should use canvas apps for highly customizable layouts. Canvas apps provide 
 
 **Create an app from a template**: Template apps are used for specific scenarios like budgeting and employee management 
 
+### Functions
+
+Here are some common functions and an explanation of what they do:
+
+* Filter - This function is often used with galleries or tables of data to narrow down the rows returned from your data source. You do this by specifying one or more columns in your data set to perform a logic test on, which will allow you to return data that falls in a certain date range, has a set value, or was created by the user for example.
+* Match - This function allows you to check a value to see if it follows a given pattern. You can use this to check if the user entered a properly formatted email address and, if they did not, show them a warning that a valid email is required. This function serves well for conditional formatting.
+* Distinct - This function allows you to return the unique values from a list of data, making it easier to build dynamic dropdowns that show users only the valid values for the given column.
+* Math functions - Power Apps includes a range of math formulas for working with your data from the simple such as Sum or Average to the complex such as Atan and Sin to work with radians.
+
 
 ## Model-driven app 
 Complex business process apps with simple user interfaces. Model-driven apps can automatically generate the application layout for your business data and processes stored 
 in Microsoft Dataverse. You create a model-driven app by modelling the necessary business data your app needs to define a consistent business process. 
+
+Model-driven app design is a component-focused approach to app development. Model-driven app design does not require code, and the apps you make can be simple or very complex. Unlike canvas app development, where the designer has complete control over app layout, much of the layout is determined for you with model-driven apps and largely designated by the components you add to the app.
+
+Model-driven apps have three design phases:
+* Model your business data
+* Define your business processes
+* Build the app
 
 Model-driven apps let pu design critical business apps by allowing you to write complex business logic inside. 
 
