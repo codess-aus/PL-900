@@ -1,5 +1,18 @@
 # Demonstrate the capabilities of Power Automate (15-20%)
 
+### Common scenarios and capabilities of Power Automate:
+
+* Automating of repetitive tasks like moving data from one system to another
+* Guiding a user through a process so they can complete the different stages
+* Connecting to external data sources via one of the hundreds of connectors or directly via an API
+* Automating desktop based processes with robotic process automation (RPA) capabilities
+
+### Example: a purchase order approval
+Approvals are a great process to build in Power Automate. They are often defined yet manual. Check out the following scenario for an example:
+A user starts the process by going into a Power Apps app and creating a purchase order request. Once they submit the request, the information is sent to a Power Automate flow.
+The flow can be built to evaluate the request and then route the request based on criteria such as submitting user and request amount. The first action could be to send the request to the user's manager. The manager could be automatically retrieved from Azure AD, avoiding prompting for duplicate information.
+After the manager receives the approval and approves, the flow can then provide conditional logic. Typically, this might be something like: if the purchase order request is greater than $10,000, send it to VP; if not, then automatically approve the purchase order.
+
 ## Get a copy of the Flow for BackUp Purposes:
 You should use the Export option to export the flow as a package. 
 Your co-worker could then import this package and re-use the original version of the flow. 
@@ -7,6 +20,15 @@ You can also use the Save as option to make a new copy of this flow so your co-w
 
 You should not use the Rename option. This option is used to rename the existing flow, and you do not want to rename the flow because it is used by other processes. 
 You should not use the Share option. This option is used for sharing an existing flow This task asks you to provide a copy of the flow so that it can be used by your co-worker. 
+
+### Power Automate works by creating flows, of which there are three types:
+
+* Event driven flows - These are flows that you build with a trigger and then one or more actions. There are a multitude of triggers and actions available, thanks to the existing connectors. You will see these as My flows and Team flows in Power Automate. The only difference between a My flow and a Team flow is ownership. With a My flow you are the sole owner, while a Team flow has more than one owner.
+
+* Business process flows - These flows are built to augment the experience when using Model-driven apps and Microsoft Dataverse. Use these to create a guided experience in your Model-driven apps.
+
+* Desktop flows - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
+
 
 ## Event-driven flow:
 Use an EDF to check the arrival of a file in the FTP folder. You would build an event-driven flow so that whenever new files arrive in the FTP folder, it will trigger an action. 
@@ -172,4 +194,9 @@ Submit is used to publish your flow to the template gallery.
 ## Export option. 
 Export is used to copy the definition of the flow into a zip file for moving to a different environment, or a JSON file for converting into an Azure logic app.
 
+### Currently, there are four available AI models available to build:
 
+* Form processor - This model extracts text from an uploaded image or taken photo.
+* Object detector - This model identifies objects from an uploaded image or taken photo and then provides a count of the number objects present.
+* Prediction - This model predicts whether something will happen or not based on previous data history. More details in the following section.
+* Text classification - This model categorizes text by its meaning, making it is easier to analyze.
