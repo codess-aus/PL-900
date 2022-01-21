@@ -39,7 +39,15 @@ Model-driven apps have three design phases:
 
 Model-driven apps let pu design critical business apps by allowing you to write complex business logic inside. 
 
-You should not use a model-driven app because you need to design an app with a customized layout. 
+Each table also contains four assets:
+* Forms – Defining how users will see and interact with the data
+* Views – A list view of the rows for each table
+* Charts - Showing the data in a meaningful, visual representation
+* Dashboards – Providing an insightful, graphical overview of the data
+
+You should not use a model-driven app because you need to design an app with a customized layout. MDA design is mostly controlled by the business processes chosen.
+
+Model-driven apps are created using the App Designer. You will choose the entities, dashboards, business process flows, forms, and other components that you want to make available in your app, and then the app will be created for you. This means you will need to spend more time understanding what your user needs than how it is going to look.
 
 You can embed a canvas app in a model-driven app. You can design and create custom layouts using the canvas app designer and embed these apps in a model-driven app. An embedded canvas app includes rich data integration capabilities between the contextual data from the model-driven app form with the embedded canvas app. 
 
@@ -58,7 +66,15 @@ You cannot add business rules to an app. Business rules are included automatical
 
 You cannot add Power Automate cloud flows to a model-driven app. Power Automate cloud flows are not associated with user interface compn)nents that are part of an app.
 
-## Controls:
+### Business Logic
+When incorporating business logic in your app, there are two primary options available. You can set Business Rules on your Microsoft Dataverse tables or you can build Business Process Flows.
+
+With **Business Rules**, you will define behaviors at the data layer. This is great for setting conditions for when a field is required, setting a default value, or even showing or hiding a field based on criteria. An example could be a table for tracking expenses. You could have a column for type of travel and then build a business rule that dictates that if a user chooses automobile then the mileage field is required, else it is optional. This gives you the power to make sure you maintain data consistency in all scenarios.
+
+**Business process flows** are used to guide users through using your app. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
+
+
+### Controls:
 
 **Combo box control** This control allows you to display a list and search for items. The search is performed in the server so performance is not affected by very large data sources. 
 
