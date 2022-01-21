@@ -178,6 +178,36 @@ You can use a data source to access external data stored in cloud services, like
 ## AppSource: 
 You can use AppSource to distribute and publish apps for Power Platform and Dynamics 365 to a broader audience.
 
+# Power Apps Portals
+Power Apps portals give internal and external users secure access to your data either anonymously or through commercial authentication providers like LinkedIn, Microsoft, Facebook, and Google, or enterprise providers such as Azure AD B2C and Okta. Portals also allow you to set authentication requirements, customize data for each user, and allow users to submit their information privately with straightforward admin controls.
+
+The following are additional capabilities that Power Apps portals can deliver:
+* Provide self-service support - When your business is growing, rather than having to employ extra staff in call centers, you could use Power Apps portals to add self-service capabilities to your website so that your customers can search knowledge articles, engage with other customers, find answers, and create support cases when needed (that go directly into Dynamics 365 Customer Service), all without a single interaction from your resources.
+* Build a sales pipeline - When a lead fills out a Contact Us form on your company website, this information is recorded in Dynamics 365 Sales where the record can become part of your sales pipeline automatically.
+* Empower employees - When an employee needs a new computer, they can fill out an online form, where the information will be recorded in Dataverse so the helpdesk staff can immediately access and process this information.
+* Engage mobile workforce - Empower agents on any device, wherever they work. Field technicians can process and complete work orders in the field, instantly updating Dynamics 365 Field Service.
+
+Businesses that have Dynamics 365 or a custom Microsoft Dataverse solution already in place can quickly build portals that are more secure and build their entire website, all without requiring developers.
+
+If you are using Microsoft Dynamics 365 apps such as Dynamics 365 Sales or Dynamics 365 Service, you have a choice of five additional portal templates:
+
+* Community portal
+* Customer self-service portal
+* Employee self-service portal
+* Partner portal
+* Customer portal (Dynamics 365 Supply Chain Management)
+
+### Webpages
+Most of a portal's content is represented by webpages. A webpage is a document that is identified by a unique URL in a website. Through parent and child relationships to other webpages, webpages form the hierarchy of a website, that is, its site map. Webpages can be added and edited by using the Portal Studio, the portal front-side editor, or directly in Microsoft Dataverse by using the Portal Management app.
+
+### Page templates
+A webpage row does not define how the page looks when it is rendered on the portal. Instead, it is linked to the Page template row that defines the layout and the behavior. Think of the webpage as the exact URL and the Page template as the blueprint for displaying the content.
+
+### Content snippets
+Content snippets are reusable fragments of editable content that can be placed within a web template. Using snippets allows for targeted editing of parts of a page without affecting the overall content.
+
+Content snippets can include plain text, HTML layout, or template processing instructions, which helps enable dynamic content. In the example below, Mobile Header is a content snippet that can be updated with your company’s logo to quickly and easily tailor the portal to your needs.
+
 ## Portal Templates:
 **Portal template**: A portal template is used when creating the portal site, and each template has a set of pre-configured web pages and other components.
 
